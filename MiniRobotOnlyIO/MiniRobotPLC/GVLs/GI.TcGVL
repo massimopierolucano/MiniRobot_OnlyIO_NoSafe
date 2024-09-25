@@ -11,6 +11,9 @@ END_VAR
 {END_IF}
 
 VAR_GLOBAL
+  {attribute 'TcLinkTo':='outFloor := TIIB[Term 14 (EL2008)]^Channel 1^Output;}
+  outFloor AT %Q*:BOOL;
+
   {info '---------------Hardware inputs used; CGSMiniRobot defined---------------'}		
   {attribute 'TcLinkTo':='.bKeyRestart                := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 1^KeyRestart;
                       .bEmgyBtnCntct1                 := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 2^EmgyBtnCntct1;

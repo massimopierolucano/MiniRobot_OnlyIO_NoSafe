@@ -150,9 +150,9 @@ VAR_GLOBAL
   stIN AT %I*:ST_Robot_HWI;
 
 
-{attribute 'TcLinkTo':='FlushFloor                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 1^FlushFloor;
-                        IrrigLine1                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 3^IrrigLine1;
-                        IrrigLine2                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 4^IrrigLine2;'}
+{attribute 'TcLinkTo':='.FlushFloor                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 1^FlushFloor;
+                        .IrrigLine1                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 3^IrrigLine1;
+                        .IrrigLine2                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 4^IrrigLine2;'}
   stOUT AT %Q*:ST_Robot_HWQ;
 
 {attribute 'TcNcAxis' := '.Line1Front                       := CGSMini_Robot01AxisLine1Front;
@@ -160,6 +160,7 @@ VAR_GLOBAL
                           .Line2Front                       := CGSMini_Robot01AxisLine2Front;
                           .Line2Back                        := CGSMini_Robot01AxisLine2Back;'}
   stAxes : ST_Robot_Axes;
+  
 END_VAR]]></Declaration>
   </GVL>
 </TcPlcObject>

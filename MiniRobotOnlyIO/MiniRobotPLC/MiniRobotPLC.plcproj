@@ -117,17 +117,24 @@
     <Compile Include="DUTs\ST_UPS_HWI.TcDUT">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GVLs\G.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
     <Compile Include="GVLs\GI.TcGVL">
       <SubType>Code</SubType>
       <LinkAlways>true</LinkAlways>
+      <ExcludeFromBuild>true</ExcludeFromBuild>
     </Compile>
     <Compile Include="GVLs\GIQ_Robot01.TcGVL">
       <SubType>Code</SubType>
       <LinkAlways>true</LinkAlways>
+      <ExcludeFromBuild>false</ExcludeFromBuild>
     </Compile>
     <Compile Include="GVLs\GQ.TcGVL">
       <SubType>Code</SubType>
       <LinkAlways>true</LinkAlways>
+      <ExcludeFromBuild>false</ExcludeFromBuild>
     </Compile>
     <Compile Include="PlcTask.TcTTO">
       <SubType>Code</SubType>
