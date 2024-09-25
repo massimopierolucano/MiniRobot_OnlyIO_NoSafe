@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_SystemStatus" Id="{06fa67bb-e2cc-4f0d-b367-1f6360c47069}">
+    <Declaration><![CDATA[TYPE ST_SystemStatus :
+STRUCT
+  nRequestModeMachine      : E_ModeMachine := E_ModeMachine.Startup;
+  nModeMachine             : E_ModeMachine := E_ModeMachine.Startup;
+  nStateMachine            : E_StateMachine := E_StateMachine.cIdle;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

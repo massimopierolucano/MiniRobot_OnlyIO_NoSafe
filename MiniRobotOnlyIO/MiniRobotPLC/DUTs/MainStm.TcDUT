@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="MainStm" Id="{d181e26b-2eb7-46ac-a663-9f5867c39c7e}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE MainStm :
+(
+	ModuleDatabaseInit := 0,
+  ModuleDatabaseLoad,
+  ErrorDatabaseInit,
+	LoadSQLDB,
+  Init,
+	//WaitInitWebVISUTask,
+	LoadModuleDB,
+	InitWebVISUTask,
+	IRSystemExec,//GreenhouseExec,
+	PowerFailure,
+	WaitPowerDown,
+	ReqShutdown,
+  ReqRestart,
+  FailedLoadSQL,
+  FailedInitObjects,
+	End
+);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

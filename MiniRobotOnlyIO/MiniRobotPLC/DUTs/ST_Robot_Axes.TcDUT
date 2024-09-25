@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_Robot_Axes" Id="{1844a1da-2459-44db-bacb-2524e58582a3}">
+    <Declaration><![CDATA[TYPE ST_Robot_Axes :
+STRUCT
+  Line1Front    : AXIS_REF;//Axis4-Line1-Left Front (ChB) - second Drive in I/O Tree
+  Line1Back     : AXIS_REF;//Axis3-Line1-Left Back (ChA) - second Drive in I/O Tree
+  Line2Front    : AXIS_REF;//Axis2-Line2-Right Front (ChB) - first Drive in I/O Tree
+  Line2Back     : AXIS_REF;//Axis1-Line2-Right Back (ChA)- first Drive in I/O Tree
+END_STRUCT
+END_TYPE
+
+(*
+Old Robot HW Drivers assign table
+ChA -> Front
+ChB -> Back
+Axe1-LA-Left Front-GVL_Intern.arAxe[1] - Drive 8 (AX8206-0200-0104) # 'Ch A'
+Axe2-LB-Left Back-GVL_Intern.arAxe[2] - Drive 8 (AX8206-0200-0104) # 'Ch B'
+Axe3-RA-Right Front-GVL_Intern.arAxe[3] - Drive 9 (AX8206-0200-0104) # 'Ch A'
+Axe4-RB-Right Back-GVL_Intern.arAxe[4] - Drive 9 (AX8206-0200-0104) # 'Ch B'
+*)
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

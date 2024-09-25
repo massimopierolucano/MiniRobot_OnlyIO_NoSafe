@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GQ" Id="{7358048f-e6f7-45e6-bbf0-cc5fd4f1a677}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{IF defined (debugCompile)}
+//contains ONLY global variable to access hardware output debugCompile mode
+{info '---------------simulation output global variables used; DEBUG defined---------------'}
+VAR_GLOBAL
+  //contains ONLY global variable for outputs
+  stMainCabinet 				: ST_MainCabinet_HWQ;	
+END_VAR
+{END_IF}
+
+
+VAR_GLOBAL
+  {info '---------------Hardware outputs used; CGSMiniRobot defined---------------'}
+  {attribute 'TcLinkTo':='.bEmgyBtnWhiteLight     := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^Channel 2^EmgyBtnWhiteLight;
+                          .bEmgyBtnRedLight       := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^Channel 3^EmgyBtnRedLight;
+                          
+                          .stStackLight.bBlue		  := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^Channel 4^blue;
+                          .stStackLight.bGreen    := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^Channel 5^green;
+                          .stStackLight.bOrange   := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^Channel 6^orange;
+                          .stStackLight.bRed      := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^Channel 7^red;
+                          .stStackLight.bBuzzer	  := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^Channel 8^buzzer;'}
+  stMainCabinet AT %Q* :ST_MainCabinet_HWQ;	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

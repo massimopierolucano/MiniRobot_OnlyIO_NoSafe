@@ -1,0 +1,3554 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.47" ClassName="CFlbTermDef" SubType="9099">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
+			<BitSize>2</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>2</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
+			<BitSize>3</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>3</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
+			<BitSize>1</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>1</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000008}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BYTE</Name>
+			<BitSize>8</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000001}">BYTE</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>1</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
+			<BitSize>7</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>7</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000010}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BYTE</Name>
+			<BitSize>16</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000001}">BYTE</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>2</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
+			<BitSize>5</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>5</Elements>
+			</ArrayInfo>
+		</DataType>
+	</DataTypes>
+	<ImageDatas>
+		<ImageData Id="1000">424dd6020000000000003600000028000000100000000e0000000100180000000000a002000074120000741200000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3000000c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3000000c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3241cedc3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff000000000000000000000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
+		<ImageData Id="1001">424dd6020000000000003600000028000000100000000e000000010018000000000000000000c40e0000c40e00000000000000000000c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff00f2ff00f2ff00f2ff00f2ff00f2ff00f2ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff00f2ff00f2ff00f2ff00f2ff00f2ff00f2ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff00f2ff00f2ff00f2ff00f2ff00000000f2ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff00f2ff00f2ff00f2ff00f2ff00000000f2ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff000000000000000000000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
+		<ImageData Id="1002">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
+	</ImageDatas>
+	<Box Id="39" BoxType="9099" BoxFlags="#x00000020">
+		<Name>__FILENAME__</Name>
+		<ImageId>1000</ImageId>
+		<Xml>
+			<TcDMDrive>
+				<SortId>0</SortId>
+				<DriveModuleType>27</DriveModuleType>
+				<TcLink>
+					<TcPrjPath>..\IrrigationRobotSWProj\IrrigationSystemSWProj.tsproj</TcPrjPath>
+					<IoItemPathName>TIID^CGSMini_IrrigationSystemMainPLC^CGSMini_RobotAllMainCab-EL1200^CGSMini_Robot01MainCabEtherCATBusEK1122^CGSMini_Robot01OnboardAxisPwrSupply-AX8620</IoItemPathName>
+					<ItemId>39</ItemId>
+					<ObjectId>#x03020027</ObjectId>
+				</TcLink>
+				<OrderCode>AX8620-0000-0000</OrderCode>
+				<Name>CGSMini_Robot01OnboardAxisPwrSupply-AX8620</Name>
+				<ProductRevision>AX8620-0000-0105</ProductRevision>
+				<WatchLog UpdateIntervalInMs="500">
+					<WatchLogItem>
+						<WatchLogParaCoE Index="4120" SubIndex="2"/>
+						<Alias>Type</Alias>
+					</WatchLogItem>
+					<WatchLogItem>
+						<WatchLogParaCoE Index="4120" SubIndex="4"/>
+						<Alias>Serial Nr</Alias>
+					</WatchLogItem>
+					<WatchLogItem>
+						<WatchLogParaCoE Index="4322" SubIndex="1"/>
+						<Alias>BIC</Alias>
+					</WatchLogItem>
+					<WatchLogItem>
+						<WatchLogParaCoE Index="4106" SubIndex="0"/>
+						<Alias>Firmware version</Alias>
+					</WatchLogItem>
+					<WatchLogItem>
+						<WatchLogParaCoE Index="24577" SubIndex="1"/>
+						<Alias>DC link voltage</Alias>
+					</WatchLogItem>
+					<WatchLogItem>
+						<WatchLogParaCoE Index="24579" SubIndex="1"/>
+						<Alias>Int. brake resistor power</Alias>
+					</WatchLogItem>
+					<WatchLogItem>
+						<WatchLogParaCoE Index="24579" SubIndex="1"/>
+						<Alias>Ext. brake resistor power</Alias>
+					</WatchLogItem>
+				</WatchLog>
+				<Infeed>
+					<PowerSupplyMains>
+						<Name>InfeedTypePowerSupplyMains</Name>
+						<Parameter>
+							<PropertyName>PowerSupplyType</PropertyName>
+							<Value>4</Value>
+						</Parameter>
+						<Parameter>
+							<PropertyName>MainVoltage</PropertyName>
+							<Value>400</Value>
+						</Parameter>
+						<Parameter>
+							<PropertyName>UTolerancePositive</PropertyName>
+							<Value>10</Value>
+						</Parameter>
+						<Parameter>
+							<PropertyName>UToleranceNegative</PropertyName>
+							<Value>25</Value>
+						</Parameter>
+						<Parameter>
+							<PropertyName>MinDcLinkVoltage</PropertyName>
+							<Value>361.299737060519</Value>
+						</Parameter>
+						<Parameter>
+							<PropertyName>MaxDcLinkVoltage</PropertyName>
+							<Value>875</Value>
+						</Parameter>
+						<Parameter>
+							<PropertyName>UmainsPhaseErrDetection</PropertyName>
+							<Value>1</Value>
+						</Parameter>
+						<Parameter>
+							<PropertyName>LongFilterForUmainsPhaseErrDetection</PropertyName>
+							<Value>0</Value>
+						</Parameter>
+					</PowerSupplyMains>
+				</Infeed>
+			</TcDMDrive>
+		</Xml>
+		<EtherCAT SlaveType="2" PdiType="#x0405" MboxDataLinkLayer="true" StateMBoxPolling="true" CfgModeSafeOp="true" CycleMBoxPollingTime="0" CoeType="47" FoeType="1" VendorId="#x00000002" ProductCode="#x21ac6012" RevisionNo="#x00690000" InfoDataAddr="true" InfoDataDcTimes="true" TimeoutMailbox2="2000" CheckRevisionNoType="4" PortPhys="305" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="AX8620-0000-0105" Desc="AX8620-0000-0105">
+			<SyncMan>001000012600010001000000600000010001001026010000</SyncMan>
+			<SyncMan>001100012200010002000000600000010001001122010000</SyncMan>
+			<SyncMan>001200000400000003000000000000000000001204000000</SyncMan>
+			<SyncMan>00190e002000010004000000000000000200001920010000</SyncMan>
+			<Fmmu>0000000000000000001900010100000002000000000000000000000000000000</Fmmu>
+			<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+			<BootStrapData>0010f400f410f400</BootStrapData>
+			<SuName>&lt;default&gt;</SuName>
+			<SuTask>#x05000010</SuTask>
+			<DcData>0003000000000000000000000000000001000000000000000000000000000000</DcData>
+			<DcMode>4443000000000000000000000000000044432d53796e6368726f6e000000000000000000000000000000000000000000000000000000000000000000000000030100000000000000000000000000000000000000000000000000000000000000</DcMode>
+			<DcMode>4443494e00000000000000000000000044432d53796e6368726f6e2028696e7075742062617365642900000000000000000000007cfcffff00000000000000030100000000000000000001000000000000000000000000000000000000000000</DcMode>
+			<MBoxUserCmdData>004003000a0000001f000000000000000000000000000000000000000000000020f31005020000000100456e61626c6520446961674d65737361676520617320656d657267656e637900</MBoxUserCmdData>
+			<MBoxUserCmdData>02000300090000001b000000000000000000000000000000000000000000000020008004010000000050534d20506172616d6574657273202f204d61696e73207479706500</MBoxUserCmdData>
+			<MBoxUserCmdData>020003000a0000001d00000000000000000000000000000000000000000000002000801102000000000050534d20506172616d6574657273202f20436f6e74726f6c20776f726400</MBoxUserCmdData>
+			<MBoxUserCmdData>020003000a0000001e00000000000000000000000000000000000000000000002000800602000000a00f50534d20506172616d6574657273202f204d61696e7320766f6c7461676500</MBoxUserCmdData>
+			<Pdo Name="PSM Controlword for axis" Index="#x1a00" Flags="#x0010" SyncMan="3">
+				<Entry Name="Controlword for axis__Non-generative brake order_n" BitLen="1" Index="#x6000" Sub="#x01">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to brake without generating energy back in the power supply module. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__Ready to operate" BitLen="1" Index="#x6000" Sub="#x02">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if no errors, mains voltage between tolerances, dc link loaded and relays closed. It allows the axis to be enabled. If this gets low in operation, the axis do not be disabled but rather it avoids the axis to be enabled again.]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__TorqueOFF order_n" BitLen="1" Index="#x6000" Sub="#x03">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to switch off the torque. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__Generative brake order_n" BitLen="1" Index="#x6000" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to brake without demanding energy from the DcLink. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__Limit dc link current_order_n" BitLen="1" Index="#x6000" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the axis to limit the requested current from the DC link. Active low. Cause: Motoric load (6001:04) greater than 102%.]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__NC handling_order_n" BitLen="1" Index="#x6000" Sub="#x06">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Order for the NC to handle. Active low]]></Comment>
+				</Entry>
+				<Entry Name="Controlword for axis__" BitLen="2">
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+				<Entry Name="Controlword for axis__" BitLen="3">
+					<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
+				</Entry>
+				<Entry Name="Controlword for axis__Counter" BitLen="5" Index="#x6000" Sub="#x0c">
+					<Type>BIT5</Type>
+					<Comment><![CDATA[Sign for the axis, that the power supply module is in SAFEOP or OP.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Warning register" Index="#x1a01" Flags="#x0010" SyncMan="3">
+				<Entry Name="Warning__A0 Reserviert" BitLen="1" Index="#x6004" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Warning__A1 Brake resistor power overload" BitLen="1" Index="#x6004" Sub="#x02">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual brake power or energy above brake resistor power warning threshold (8000:0D).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A2 Device overtemperature" BitLen="1" Index="#x6004" Sub="#x03">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual heatsink temperature above heatsink temperature warning threshold (8000:0A).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A3 DC link continuous overcurrent" BitLen="1" Index="#x6004" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[DC link current above DC link continuous overcurrent warning threshold (8000:02).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A4 Fan malfunction" BitLen="1" Index="#x6004" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Fan does not work.]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A5 Mains overvoltage" BitLen="1" Index="#x6004" Sub="#x06">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual mains voltage above mains voltage max tolerance (8000:07).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__A6 Mains undervoltage" BitLen="1" Index="#x6004" Sub="#x07">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Actual mains voltage below mains voltage min tolerance (8000:08).]]></Comment>
+				</Entry>
+				<Entry Name="Warning__" BitLen="1">
+					<Type GUID="{18071995-0000-0000-0000-002000000001}">ARRAY [0..0] OF BIT</Type>
+				</Entry>
+				<Entry Name="Warning__" BitLen="8">
+					<Type GUID="{18071995-0000-0000-0000-002000000008}">ARRAY [0..0] OF BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Memory interface data" Index="#x1a02" Flags="#x0010">
+				<Entry Name="Data 1" BitLen="32" Index="#x6006" Sub="#x01">
+					<Type>DINT</Type>
+					<Comment><![CDATA[Actual value of debug pointer 1.]]></Comment>
+				</Entry>
+				<Entry Name="Data 2" BitLen="32" Index="#x6006" Sub="#x02">
+					<Type>DINT</Type>
+					<Comment><![CDATA[Actual value of debug pointer 2.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Statusword" Index="#x1a03" Flags="#x0010">
+				<Entry Name="Statusword__Ready to operate" BitLen="1" Index="#x6007" Sub="#x01">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if no errors, mains voltage between tolerances, dc link loaded and relays closed. It allows the axis to be enabled. If this gets low in operation, the axis do not be disabled but rather it avoids the axis to be enabled again.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Error" BitLen="1" Index="#x6007" Sub="#x02">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if any error is set. To know the error look at the Diag-History.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Warning" BitLen="1" Index="#x6007" Sub="#x03">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if any warning is set. To know the warning look at the warning register (6002).]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Relays closed" BitLen="1" Index="#x6007" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if relays are closed.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Brake chopper active" BitLen="1" Index="#x6007" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if brake chopper is switched on.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Fan active" BitLen="1" Index="#x6007" Sub="#x06">
+					<Type>BIT</Type>
+					<Comment><![CDATA[High if fan is turning.]]></Comment>
+				</Entry>
+				<Entry Name="Statusword__Reserve 6" BitLen="1" Index="#x6007" Sub="#x07">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Statusword__Reserve 7" BitLen="1" Index="#x6007" Sub="#x08">
+					<Type>BIT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Diagnostics" Index="#x1a04" Flags="#x0010">
+				<Entry Name="DcLink state machine" BitLen="8" Index="#x6005" Sub="#x01">
+					<Type>USINT</Type>
+					<Comment><![CDATA[Actual state of the DcLink state machine.]]></Comment>
+				</Entry>
+				<Entry Name="Umains state machine" BitLen="8" Index="#x6005" Sub="#x02">
+					<Type>USINT</Type>
+					<Comment><![CDATA[Actual state of the Umains state machine.]]></Comment>
+				</Entry>
+				<Entry Name="Error code" BitLen="16" Index="#x6005" Sub="#x03">
+					<Type>UINT</Type>
+					<Comment><![CDATA[This object shall provide the error code of the last error, which occurred in this power supply module.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Voltages" Index="#x1a05" Flags="#x0010">
+				<Entry Name="Actual DC link voltage" BitLen="32" Index="#x6001" Sub="#x01">
+					<Type>UDINT</Type>
+					<Comment><![CDATA[Actual voltage value at the DC link.]]></Comment>
+				</Entry>
+				<Entry Name="Actual mains voltage" BitLen="32" Index="#x6001" Sub="#x02">
+					<Type>UDINT</Type>
+					<Comment><![CDATA[Actual RMS-value of mains voltage]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Currents" Index="#x1a06" Flags="#x0010">
+				<Entry Name="Actual DC link current" BitLen="16" Index="#x6002" Sub="#x01">
+					<Type>INT</Type>
+					<Comment><![CDATA[Actual input current in the dc link. Variable only gets updated when current is higher 0.5A.]]></Comment>
+				</Entry>
+				<Entry Name="Actual motor load" BitLen="16" Index="#x6002" Sub="#x02">
+					<Type>UINT</Type>
+					<Comment><![CDATA[Actual input load in the dc link in percent of nominal current.]]></Comment>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PSM Process values" Index="#x1a07" Flags="#x0000" SyncMan="3">
+				<Entry Name="Actual brake resistor continuous power" BitLen="16" Index="#x6003" Sub="#x01">
+					<Type>UINT</Type>
+					<Comment><![CDATA[Actual continuous power converted in the brake resistor.]]></Comment>
+				</Entry>
+				<Entry Name="Actual brake resistor short-time energy" BitLen="16" Index="#x6003" Sub="#x02">
+					<Type>UINT</Type>
+					<Comment><![CDATA[Actual brake energy generated in last second in % of maximal short-time energy (by on-time 1s). Max short-time energy = Continuous max power x Overload factor for 1s x Switch-On-Time (1s).]]></Comment>
+				</Entry>
+				<Entry Name="Fan active" BitLen="1" Index="#x6007" Sub="#x06">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry BitLen="7">
+					<Type GUID="{18071995-0000-0000-0000-002000000007}">ARRAY [0..6] OF BIT</Type>
+				</Entry>
+				<Entry Name="Actual mains voltage" BitLen="32" Index="#x6001" Sub="#x02">
+					<Type>UDINT</Type>
+				</Entry>
+				<Entry Name="Umains state machine" BitLen="8" Index="#x6005" Sub="#x02">
+					<Type>BYTE</Type>
+				</Entry>
+			</Pdo>
+			<CoeProfile ProfileNo="62919561" DisplayName="AX8000 Power supply"/>
+		</EtherCAT>
+		<Box Id="40" BoxType="9099" BoxFlags="#x00000020">
+			<Name>CGSMini_Robot01OnboardAxisDriverLine2-AX8206</Name>
+			<ImageId>1001</ImageId>
+			<Xml>
+				<TcDMDrive>
+					<SortId>0</SortId>
+					<DriveModuleType>6</DriveModuleType>
+					<TcLink>
+						<TcPrjPath>..\IrrigationRobotSWProj\IrrigationSystemSWProj.tsproj</TcPrjPath>
+						<IoItemPathName>TIID^CGSMini_IrrigationSystemMainPLC^CGSMini_RobotAllMainCab-EL1200^CGSMini_Robot01MainCabEtherCATBusEK1122^CGSMini_Robot01OnboardAxisPwrSupply-AX8620^CGSMini_Robot01OnboardAxisDriverLine2-AX8206</IoItemPathName>
+						<ItemId>40</ItemId>
+						<ObjectId>#x03020028</ObjectId>
+					</TcLink>
+					<OrderCode>AX8206-0x00-0000</OrderCode>
+					<Name>CGSMini_Robot01OnboardAxisDriverLine2-AX8206</Name>
+					<ProductRevision>AX8206-0200-0104</ProductRevision>
+					<WatchLog UpdateIntervalInMs="500">
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4120" SubIndex="2"/>
+							<Alias>Type</Alias>
+						</WatchLogItem>
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4120" SubIndex="4"/>
+							<Alias>Serial Nr</Alias>
+						</WatchLogItem>
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4322" SubIndex="1"/>
+							<Alias>BIC</Alias>
+						</WatchLogItem>
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4106" SubIndex="0"/>
+							<Alias>Firmware version</Alias>
+						</WatchLogItem>
+					</WatchLog>
+					<Inverter>
+						<Device>
+							<Name>DMInverterTypeDevice</Name>
+							<Parameter>
+								<PropertyName>MaxAllowedMainVoltage</PropertyName>
+								<Value>440</Value>
+							</Parameter>
+							<Parameter>
+								<PropertyName>MinDcLinkVoltage</PropertyName>
+								<Value>361.299737060519</Value>
+							</Parameter>
+							<Parameter>
+								<PropertyName>MaxDcLinkVoltage</PropertyName>
+								<Value>0</Value>
+							</Parameter>
+						</Device>
+						<Channel ChnId="0">
+							<TcLink>
+								<TcPrjPath>..\IrrigationRobotSWProj\IrrigationSystemSWProj.tsproj</TcPrjPath>
+								<IoItemPathName>TIID^CGSMini_IrrigationSystemMainPLC^CGSMini_RobotAllMainCab-EL1200^CGSMini_Robot01MainCabEtherCATBusEK1122^CGSMini_Robot01OnboardAxisPwrSupply-AX8620^CGSMini_Robot01OnboardAxisDriverLine2-AX8206</IoItemPathName>
+								<NcItemPathName AxisType="1">TINC^NC-Task 1 SAF^Axes^CGSMini_Robot01AxisLine2Back</NcItemPathName>
+							</TcLink>
+							<SelectedModifyOptPDOsMode>0</SelectedModifyOptPDOsMode>
+							<Modulo>
+								<Name>ControllerModuloType</Name>
+								<Parameter>
+									<PropertyName>Modulo_IsOn</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_DataStorage</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_Value</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MinPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MaxPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+							</Modulo>
+							<Block Id="0">
+								<Controller/>
+							</Block>
+							<WatchLog ChnId="0" UpdateIntervalInMs="500">
+								<WatchLogItem>
+									<WatchLogParaCoE Index="12992" SubIndex="1"/>
+									<Alias>Motor type</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="12993" SubIndex="6"/>
+									<Alias>Motor temperature</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="24831"/>
+									<Alias>Velocity command</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="24684"/>
+									<Alias>Actual velocity</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="24676"/>
+									<Alias>Actual position</Alias>
+								</WatchLogItem>
+							</WatchLog>
+						</Channel>
+						<Channel ChnId="1">
+							<TcLink>
+								<TcPrjPath>..\IrrigationRobotSWProj\IrrigationSystemSWProj.tsproj</TcPrjPath>
+								<IoItemPathName>TIID^CGSMini_IrrigationSystemMainPLC^CGSMini_RobotAllMainCab-EL1200^CGSMini_Robot01MainCabEtherCATBusEK1122^CGSMini_Robot01OnboardAxisPwrSupply-AX8620^CGSMini_Robot01OnboardAxisDriverLine2-AX8206</IoItemPathName>
+								<NcItemPathName AxisType="1">TINC^NC-Task 1 SAF^Axes^CGSMini_Robot01AxisLine2Front</NcItemPathName>
+							</TcLink>
+							<SelectedModifyOptPDOsMode>0</SelectedModifyOptPDOsMode>
+							<Modulo>
+								<Name>ControllerModuloType</Name>
+								<Parameter>
+									<PropertyName>Modulo_IsOn</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_DataStorage</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_Value</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MinPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MaxPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+							</Modulo>
+							<Block Id="0">
+								<Controller/>
+							</Block>
+							<WatchLog ChnId="1" UpdateIntervalInMs="500">
+								<WatchLogItem>
+									<WatchLogParaCoE Index="14016" SubIndex="1"/>
+									<Alias>Motor type</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="14017" SubIndex="6"/>
+									<Alias>Motor temperature</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="26879"/>
+									<Alias>Velocity command</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="26732"/>
+									<Alias>Actual velocity</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="26724"/>
+									<Alias>Actual position</Alias>
+								</WatchLogItem>
+							</WatchLog>
+						</Channel>
+					</Inverter>
+				</TcDMDrive>
+			</Xml>
+			<EtherCAT SlaveType="3" AdsServerAddress="05827f7a0329f903" FixedAdsServerNetId="true" PdiType="#x0408" MboxDataLinkLayer="true" StateMBoxPolling="true" CfgModeSafeOp="true" CycleMBoxPollingTime="0" CoeType="47" FoeType="1" VendorId="#x00000002" ProductCode="#x200e6012" RevisionNo="#x006800c8" InfoDataAddr="true" InfoDataNetId="true" InfoDataSoeDS401="true" InfoDataDcTimes="true" TimeoutStateChange1="60000" TimeoutStateChange2="30000" TimeoutStateChange3="30000" TimeoutStateChange4="300" TimeoutMailbox2="2000" GenerateOwnNetId="true" InitializeOwnNetId="true" DownloadSlotCfg="true" CheckRevisionNoType="4" PortPhys="51" IdentificationAdo="308" SafetyLogicSupported="true" DownloadSlotCfgIP="true" MaxSlotCount="96" MaxSlotGroupCount="2" Type="AX8206-0200-0104 (2Ch. 6A servo axis, safe-motion)" Desc="AX8206-0200-0104" PortABoxInfo="#x01000027">
+				<SyncMan>001000022600010001000000700000040002001026010000</SyncMan>
+				<SyncMan>001400022200010002000000700000040002001422010000</SyncMan>
+				<SyncMan>001816006400010003000000000000002400001864010000</SyncMan>
+				<SyncMan>002a2e002000010004000000000000002e00002a20010000</SyncMan>
+				<SyncMan>003c00002400000005000000000000000000003c24000000</SyncMan>
+				<SyncMan>004e00002000000006000000000000000000004e20000000</SyncMan>
+				<SyncMan>00600a002400010003000000000000000a00006024010000</SyncMan>
+				<SyncMan>00720a002000010004000000000000000a00007220010000</SyncMan>
+				<Fmmu>0000000000000000001800020100000001000000060000000200000000000000</Fmmu>
+				<Fmmu>0000000000000000002a00010100000002000000060000000300000000000000</Fmmu>
+				<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+				<Fmmu>0000000000000000000000020000000005000000060000000400010000000000</Fmmu>
+				<Fmmu>0000000000000000000000010000000006000000060000000500010000000000</Fmmu>
+				<Fmmu>0000000000000000006000020100000001000000060000000600020000000000</Fmmu>
+				<Fmmu>0000000000000000007200010100000002000000060000000700020000000000</Fmmu>
+				<BootStrapData>0010140200181402</BootStrapData>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<DcData>0007000024f4000000000000000000000000ffff000000000000000000000000</DcData>
+				<DcMode>446353796e633632353030000000000053796e63206379636c652074696d652036322e3530300000000000000000000024f400000000000000000000ffff00070000000000000000000000000000000000000000000000000000000000000000</DcMode>
+				<MBoxUserCmdData>004003000a00000000000000000000000000000000000000000000000000000020f3100502000000010000</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000a00000029000000000000000000000000000000000000000000000020022c050200000030114465766963654d61696e20506172616d6574657273202f204d61696e73206d617820766f6c7461676500</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000a0000002b000000000000000000000000000000000000000000000020022c010200000069014465766963654d61696e20506172616d6574657273202f204d696e204443206c696e6b20766f6c7461676500</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000a00000042000000000000000000000000000000000000000000000020032c0102000000f8034465766963654d61696e20506f77657220737570706c7920436f6e6e656374696f6e202f20506f77657220737570706c79204574686572434154204164647265737300</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000c0000000b0000000000000000000000000000000000000000000000201d2c020400000084fb610353746172747570206b657900</MBoxUserCmdData>
+				<Pdo Name="DeviceMain Inputs" Index="#x1a00" Flags="#x0280"/>
+				<Pdo Name="DeviceMain Dynamic Inputs" Index="#x1ae0" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="DeviceMain Outputs" Index="#x1600" InOut="1" Flags="#x0280" SyncMan="2">
+					<Entry Name="Power supply controlword" BitLen="16" Index="#x2c00" Sub="#x01" Flags="#x00000800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall be linked to the Statusword of the connected PowerSupply device. (I.e. AX8620)]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="DeviceMain Dynamic Outputs" Index="#x16e0" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="FSoE Slave Connection 1 Slave Message" Index="#x1bc0" Flags="#x0080" SyncMan="7" SyncUnit="2">
+					<ExcludePdo>#x1bc1</ExcludePdo>
+					<Entry Name="FSOE__FSoE Slave Cmd" BitLen="8" Index="#xe600" Sub="#x01">
+						<Type>USINT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis A STO" BitLen="1" Index="#xf601" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_1" BitLen="1" Index="#xf601" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_2" BitLen="1" Index="#xf601" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_3" BitLen="1" Index="#xf601" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_4" BitLen="1" Index="#xf601" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_5" BitLen="1" Index="#xf601" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_6" BitLen="1" Index="#xf601" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_7" BitLen="1" Index="#xf601" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis B STO" BitLen="1" Index="#xf601" Sub="#x09">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_9" BitLen="1" Index="#xf601" Sub="#x0a">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_10" BitLen="1" Index="#xf601" Sub="#x0b">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_11" BitLen="1" Index="#xf601" Sub="#x0c">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_12" BitLen="1" Index="#xf601" Sub="#x0d">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_13" BitLen="1" Index="#xf601" Sub="#x0e">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_14" BitLen="1" Index="#xf601" Sub="#x0f">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_15" BitLen="1" Index="#xf601" Sub="#x10">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Slave CRC_0" BitLen="16" Index="#xe600" Sub="#x03">
+						<Type>UINT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Slave ConnID" BitLen="16" Index="#xe600" Sub="#x02">
+						<Type>UINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 1 Master Message" Index="#x1bc1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc0</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 2 Slave Message" Index="#x1bc2" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc3</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 2 Master Message" Index="#x1bc3" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc2</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 3 Slave Message" Index="#x1bc4" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc5</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 3 Master Message" Index="#x1bc5" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc4</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 4 Slave Message" Index="#x1bc6" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc7</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 4 Master Message" Index="#x1bc7" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc6</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 5 Slave Message" Index="#x1bc8" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc9</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 5 Master Message" Index="#x1bc9" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc8</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 6 Slave Message" Index="#x1bca" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcb</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 6 Master Message" Index="#x1bcb" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bca</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 7 Slave Message" Index="#x1bcc" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcd</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 7 Master Message" Index="#x1bcd" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcc</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 8 Slave Message" Index="#x1bce" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcf</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 8 Master Message" Index="#x1bcf" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bce</ExcludePdo>
+				</Pdo>
+				<Pdo Name="Standard Inputdata" Index="#x1bf0" Flags="#x0080" SyncMan="7" SyncUnit="2">
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Function Block Info Data" Index="#x1bf1" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="Connection Info Data" Index="#x1bf6" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="Group Info Data" Index="#x1bf9" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="Device Info Data" Index="#x1bfb" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="FSLOGIC Inputs" Index="#x1bff" Flags="#x0091" SyncMan="7" SyncUnit="2">
+					<Entry Name="FSOE__Safe Logic State" BitLen="8" Index="#xf100" Sub="#x01">
+						<Type>USINT</Type>
+					</Entry>
+					<Entry Name="FSOE__Cycle Counter" BitLen="8" Index="#xf100" Sub="#x02">
+						<Type>USINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 1 Master Message" Index="#x17c0" InOut="1" Flags="#x0080" SyncMan="6" SyncUnit="2">
+					<ExcludePdo>#x17c1</ExcludePdo>
+					<Entry Name="FSOE__FSoE Master Cmd" BitLen="8" Index="#xe700" Sub="#x01">
+						<Type>USINT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis A STO" BitLen="1" Index="#xf701" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_1" BitLen="1" Index="#xf701" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_2" BitLen="1" Index="#xf701" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_3" BitLen="1" Index="#xf701" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_4" BitLen="1" Index="#xf701" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_5" BitLen="1" Index="#xf701" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_6" BitLen="1" Index="#xf701" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_7" BitLen="1" Index="#xf701" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis B STO" BitLen="1" Index="#xf701" Sub="#x09">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_9" BitLen="1" Index="#xf701" Sub="#x0a">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_10" BitLen="1" Index="#xf701" Sub="#x0b">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_11" BitLen="1" Index="#xf701" Sub="#x0c">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_12" BitLen="1" Index="#xf701" Sub="#x0d">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_13" BitLen="1" Index="#xf701" Sub="#x0e">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_14" BitLen="1" Index="#xf701" Sub="#x0f">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_15" BitLen="1" Index="#xf701" Sub="#x10">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Master CRC_0" BitLen="16" Index="#xe700" Sub="#x03">
+						<Type>UINT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Master ConnID" BitLen="16" Index="#xe700" Sub="#x02">
+						<Type>UINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 1 Slave Message" Index="#x17c1" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c0</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 2 Master Message" Index="#x17c2" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c3</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 2 Slave Message" Index="#x17c3" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c2</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 3 Master Message" Index="#x17c4" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c5</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 3 Slave Message" Index="#x17c5" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c4</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 4 Master Message" Index="#x17c6" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c7</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 4 Slave Message" Index="#x17c7" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c6</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 5 Master Message" Index="#x17c8" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c9</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 5 Slave Message" Index="#x17c9" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c8</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 6 Master Message" Index="#x17ca" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cb</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 6 Slave Message" Index="#x17cb" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17ca</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 7 Master Message" Index="#x17cc" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cd</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 7 Slave Message" Index="#x17cd" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cc</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 8 Master Message" Index="#x17ce" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cf</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 8 Slave Message" Index="#x17cf" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17ce</ExcludePdo>
+				</Pdo>
+				<Pdo Name="Standard Outputdata" Index="#x17f0" InOut="1" Flags="#x0080" SyncMan="6" SyncUnit="2">
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSLOGIC Outputs" Index="#x17ff" InOut="1" Flags="#x0091" SyncMan="6" SyncUnit="2">
+					<Entry Name="FSOE__" BitLen="16">
+						<Type GUID="{18071995-0000-0000-0000-002000000010}">ARRAY [0..1] OF BYTE</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A AxisMain Inputs" Index="#x1a20" Flags="#x0281" SyncMan="3">
+					<Entry BitLen="1" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000001}">ARRAY [0..0] OF BIT</Type>
+					</Entry>
+					<Entry Name="Position actual value invalid" BitLen="1" Index="#x603e" Sub="#x02" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry Name="1st Additional position actual value invalid" BitLen="1" Index="#x603e" Sub="#x03" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the first position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry BitLen="5" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000005}">ARRAY [0..4] OF BIT</Type>
+					</Entry>
+					<Entry Name="Ch A Statusword" BitLen="16" Index="#x6041" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall provide the status of the PDS FSA.
+- Bit 0: Ready to switch on
+- Bit 1: Switched on
+- Bit 2: Operation enabled
+- Bit 3: Fault
+- Bit 4: Voltage enabled
+- Bit 5: Quick stop
+- Bit 6: Switch on disabled
+- Bit 7: Warning
+- Bit 8: reserved
+- Bit 9: Remote
+- Bit 10: Status toggle (see also Object 0x60D9 and 0x60DA)
+- Bit 11: Internal limit active
+- Bit 12: Drive follows the command value (cyclic modes of operation)
+- Bit 13: Input cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 14: reserved
+- Bit 15: reserved]]></Comment>
+					</Entry>
+					<Entry Name="Ch A Position actual value" BitLen="32" Index="#x6064" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the position measurement device.]]></Comment>
+					</Entry>
+					<Entry Name="IGBT temperature" BitLen="16" Index="#x3001" Sub="#x02">
+						<Type>INT</Type>
+					</Entry>
+					<Entry Name="Ch A Digital inputs" BitLen="32" Index="#x60fd" Flags="#x00002000">
+						<Type>UDINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A AxisMain Dynamic Inputs" Index="#x1b00" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A AxisMain Outputs" Index="#x1620" InOut="1" Flags="#x0281" SyncMan="2">
+					<Entry Name="Ch A Controlword" BitLen="16" Index="#x6040" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall indicate the received command controlling the PDS FSA.
+- Bit 0: Switch on
+- Bit 1: Enable voltage
+- Bit 2: Quick stop
+- Bit 3: Enable operation
+- Bit 4: reserved
+- Bit 5-6: Output cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 7: Fault reset
+- Bit 8: Halt
+- Bit 9-15: reserved]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A AxisMain Dynamic Outputs" Index="#x1700" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A Interpolator Inputs" Index="#x1a23" Flags="#x0280"/>
+				<Pdo Name="Ch A Interpolator Dynamic Inputs" Index="#x1b03" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A Interpolator Outputs" Index="#x1623" InOut="1" Flags="#x0280" SyncMan="2">
+					<Entry Name="Ch A Target position" BitLen="32" Index="#x607a" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the commanded position that the drive should move to in position profile mode using the current settings of motion control parameters such as velocity, acceleration, deceleration, motion profile type etc.]]></Comment>
+					</Entry>
+					<Entry Name="Ch A Target velocity" BitLen="32" Index="#x60ff" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the configured target velocity and shall be used as input for the trajectory generator. The value shall be given in user-defined velocity units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A Interpolator Dynamic Outputs" Index="#x1703" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A PositionControl Inputs" Index="#x1a26" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch A Following error actual value" BitLen="32" Index="#x60f4" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the following error. The value shall be given in user-defined position units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A PositionControl Dynamic Inputs" Index="#x1b06" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A PositionControl Outputs" Index="#x1626" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch A PositionControl Dynamic Outputs" Index="#x1706" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A VelocityControl Inputs" Index="#x1a2a" Flags="#x0280"/>
+				<Pdo Name="Ch A VelocityControl Dynamic Inputs" Index="#x1b0a" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A VelocityControl Outputs" Index="#x162a" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch A VelocityControl Dynamic Outputs" Index="#x170a" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A TorqueControl Inputs" Index="#x1a32" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch A Torque/force actual value" BitLen="16" Index="#x6077" Flags="#x00002000">
+						<Type>INT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A TorqueControl Dynamic Inputs" Index="#x1b12" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A TorqueControl Outputs" Index="#x1632" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch A TorqueControl Dynamic Outputs" Index="#x1712" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A SyncServoMotor Inputs" Index="#x1a36" Flags="#x0280" SyncMan="3">
+					<Entry Name="Actual motor temperature" BitLen="32" Index="#x32c1" Sub="#x06">
+						<Type>REAL</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A SyncServoMotor Dynamic Inputs" Index="#x1b16" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B AxisMain Inputs" Index="#x1a40" Flags="#x0281" SyncMan="3">
+					<Entry BitLen="1" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000001}">ARRAY [0..0] OF BIT</Type>
+					</Entry>
+					<Entry Name="Position actual value invalid" BitLen="1" Index="#x683e" Sub="#x02" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry Name="1st Additional position actual value invalid" BitLen="1" Index="#x683e" Sub="#x03" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the first position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry BitLen="5" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000005}">ARRAY [0..4] OF BIT</Type>
+					</Entry>
+					<Entry Name="Ch B Statusword" BitLen="16" Index="#x6841" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall provide the status of the PDS FSA.
+- Bit 0: Ready to switch on
+- Bit 1: Switched on
+- Bit 2: Operation enabled
+- Bit 3: Fault
+- Bit 4: Voltage enabled
+- Bit 5: Quick stop
+- Bit 6: Switch on disabled
+- Bit 7: Warning
+- Bit 8: reserved
+- Bit 9: Remote
+- Bit 10: Status toggle (see also Object 0x60D9 and 0x60DA)
+- Bit 11: Internal limit active
+- Bit 12: Drive follows the command value (cyclic modes of operation)
+- Bit 13: Input cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 14: reserved
+- Bit 15: reserved]]></Comment>
+					</Entry>
+					<Entry Name="Ch B Position actual value" BitLen="32" Index="#x6864" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the position measurement device.]]></Comment>
+					</Entry>
+					<Entry Name="Ch B Digital inputs" BitLen="32" Index="#x68fd" Flags="#x00002000">
+						<Type>UDINT</Type>
+					</Entry>
+					<Entry Name="IGBT temperature" BitLen="16" Index="#x3401" Sub="#x02">
+						<Type>INT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B AxisMain Dynamic Inputs" Index="#x1b20" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B AxisMain Outputs" Index="#x1640" InOut="1" Flags="#x0281" SyncMan="2">
+					<Entry Name="Ch B Controlword" BitLen="16" Index="#x6840" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall indicate the received command controlling the PDS FSA.
+- Bit 0: Switch on
+- Bit 1: Enable voltage
+- Bit 2: Quick stop
+- Bit 3: Enable operation
+- Bit 4: reserved
+- Bit 5-6: Output cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 7: Fault reset
+- Bit 8: Halt
+- Bit 9-15: reserved]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B AxisMain Dynamic Outputs" Index="#x1720" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B Interpolator Inputs" Index="#x1a43" Flags="#x0280"/>
+				<Pdo Name="Ch B Interpolator Dynamic Inputs" Index="#x1b23" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B Interpolator Outputs" Index="#x1643" InOut="1" Flags="#x0280" SyncMan="2">
+					<Entry Name="Ch B Target position" BitLen="32" Index="#x687a" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the commanded position that the drive should move to in position profile mode using the current settings of motion control parameters such as velocity, acceleration, deceleration, motion profile type etc.]]></Comment>
+					</Entry>
+					<Entry Name="Ch B Target velocity" BitLen="32" Index="#x68ff" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the configured target velocity and shall be used as input for the trajectory generator. The value shall be given in user-defined velocity units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B Interpolator Dynamic Outputs" Index="#x1723" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B PositionControl Inputs" Index="#x1a46" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch B Following error actual value" BitLen="32" Index="#x68f4" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the following error. The value shall be given in user-defined position units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B PositionControl Dynamic Inputs" Index="#x1b26" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B PositionControl Outputs" Index="#x1646" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch B PositionControl Dynamic Outputs" Index="#x1726" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B VelocityControl Inputs" Index="#x1a4a" Flags="#x0280"/>
+				<Pdo Name="Ch B VelocityControl Dynamic Inputs" Index="#x1b2a" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B VelocityControl Outputs" Index="#x164a" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch B VelocityControl Dynamic Outputs" Index="#x172a" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B TorqueControl Inputs" Index="#x1a52" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch B Torque/force actual value" BitLen="16" Index="#x6877" Flags="#x00002000">
+						<Type>INT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B TorqueControl Dynamic Inputs" Index="#x1b32" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B TorqueControl Outputs" Index="#x1652" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch B TorqueControl Dynamic Outputs" Index="#x1732" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B SyncServoMotor Inputs" Index="#x1a56" Flags="#x0280" SyncMan="3">
+					<Entry Name="Actual motor temperature" BitLen="32" Index="#x36c1" Sub="#x06">
+						<Type>REAL</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B SyncServoMotor Dynamic Inputs" Index="#x1b36" Flags="#x0280" SyncUnit="1"/>
+				<CoeProfile ProfileNo="402" DisplayName="Ch A"/>
+				<CoeProfile ProfileNo="402" DisplayName="Ch B"/>
+				<Slot Name="DeviceMainSlot">
+					<SlotData>0000010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6815844</ModuleIdent>
+					<Module Id="#x030900af" Type="DeviceMain" Class="">
+						<Name>Device</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000064006800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6656</PdoIndex>
+						<PdoIndex>6880</PdoIndex>
+						<PdoIndex>5632</PdoIndex>
+						<PdoIndex>5856</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b0" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b1" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b2" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b3" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b4" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b5" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b6" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b7" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900b8" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="SafetySlot">
+					<SlotData>0000000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6815857</ModuleIdent>
+					<ModuleIdent>6750321</ModuleIdent>
+					<Module Id="#x030900b9" Type="SafeMotion" Class="113">
+						<Name>Device (Safety)</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>020000007100680000002c000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>7104</PdoIndex>
+						<PdoIndex>7105</PdoIndex>
+						<PdoIndex>7106</PdoIndex>
+						<PdoIndex>7107</PdoIndex>
+						<PdoIndex>7108</PdoIndex>
+						<PdoIndex>7109</PdoIndex>
+						<PdoIndex>7110</PdoIndex>
+						<PdoIndex>7111</PdoIndex>
+						<PdoIndex>7112</PdoIndex>
+						<PdoIndex>7113</PdoIndex>
+						<PdoIndex>7114</PdoIndex>
+						<PdoIndex>7115</PdoIndex>
+						<PdoIndex>7116</PdoIndex>
+						<PdoIndex>7117</PdoIndex>
+						<PdoIndex>7118</PdoIndex>
+						<PdoIndex>7119</PdoIndex>
+						<PdoIndex>7152</PdoIndex>
+						<PdoIndex>7153</PdoIndex>
+						<PdoIndex>7158</PdoIndex>
+						<PdoIndex>7161</PdoIndex>
+						<PdoIndex>7163</PdoIndex>
+						<PdoIndex>7167</PdoIndex>
+						<PdoIndex>6080</PdoIndex>
+						<PdoIndex>6081</PdoIndex>
+						<PdoIndex>6082</PdoIndex>
+						<PdoIndex>6083</PdoIndex>
+						<PdoIndex>6084</PdoIndex>
+						<PdoIndex>6085</PdoIndex>
+						<PdoIndex>6086</PdoIndex>
+						<PdoIndex>6087</PdoIndex>
+						<PdoIndex>6088</PdoIndex>
+						<PdoIndex>6089</PdoIndex>
+						<PdoIndex>6090</PdoIndex>
+						<PdoIndex>6091</PdoIndex>
+						<PdoIndex>6092</PdoIndex>
+						<PdoIndex>6093</PdoIndex>
+						<PdoIndex>6094</PdoIndex>
+						<PdoIndex>6095</PdoIndex>
+						<PdoIndex>6128</PdoIndex>
+						<PdoIndex>6143</PdoIndex>
+						<CoeProfile ProfileNo="#x01231389"/>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900ba" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900bb" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900bc" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900bd" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900be" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900bf" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c0" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c1" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c2" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c3" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c4" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c5" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c6" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c7" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c8" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900c9" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900ca" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900cb" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900cc" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900cd" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="DeviceDebugSlot">
+					<SlotData>0000000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6847744</ModuleIdent>
+				</Slot>
+				<Slot Name="AxisMainSlot">
+					<SlotData>0100010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6816744</ModuleIdent>
+					<Module Id="#x030900ce" Type="AxisMain" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000e8036800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6688</PdoIndex>
+						<PdoIndex>6912</PdoIndex>
+						<PdoIndex>5664</PdoIndex>
+						<PdoIndex>5888</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900cf" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900d0" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="InterpolatorSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6818744</ModuleIdent>
+					<Module Id="#x030900d1" Type="Interpolator" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000b80b6800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6691</PdoIndex>
+						<PdoIndex>6915</PdoIndex>
+						<PdoIndex>5667</PdoIndex>
+						<PdoIndex>5891</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900d2" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900d3" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="PositionControlSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6821744</ModuleIdent>
+					<Module Id="#x030900d4" Type="PositionControl" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000070176800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6694</PdoIndex>
+						<PdoIndex>6918</PdoIndex>
+						<PdoIndex>5670</PdoIndex>
+						<PdoIndex>5894</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900d5" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900d6" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900d7" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="VelocityControlSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6825744</ModuleIdent>
+					<ModuleIdent>6825745</ModuleIdent>
+					<Module Id="#x030900d8" Type="VelocityControl" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000010276800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6698</PdoIndex>
+						<PdoIndex>6922</PdoIndex>
+						<PdoIndex>5674</PdoIndex>
+						<PdoIndex>5898</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="BiquadFilter1">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter2">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter3">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter4">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900d9" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900da" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900db" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="TorqueControlSlot">
+					<SlotData>0100010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6833744</ModuleIdent>
+					<Module Id="#x030900dc" Type="TorqueControl" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000050466800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6706</PdoIndex>
+						<PdoIndex>6930</PdoIndex>
+						<PdoIndex>5682</PdoIndex>
+						<PdoIndex>5906</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900dd" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900de" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900df" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Motor">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6837744</ModuleIdent>
+					<ModuleIdent>6837747</ModuleIdent>
+					<Module Id="#x030900e0" Type="SyncServoMotor" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000f0556800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6710</PdoIndex>
+						<PdoIndex>6934</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Primary Feedback">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6838745</ModuleIdent>
+					<ModuleIdent>6838749</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e1" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e2" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e3" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e4" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e5" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e6" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e7" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="AxisDebugSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6847754</ModuleIdent>
+				</Slot>
+				<Slot Name="AxisMainSlot">
+					<SlotData>0200010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6816744</ModuleIdent>
+					<Module Id="#x030900e8" Type="AxisMain" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000e8036800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6720</PdoIndex>
+						<PdoIndex>6944</PdoIndex>
+						<PdoIndex>5696</PdoIndex>
+						<PdoIndex>5920</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900e9" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900ea" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="InterpolatorSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6818744</ModuleIdent>
+					<Module Id="#x030900eb" Type="Interpolator" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000b80b6800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6723</PdoIndex>
+						<PdoIndex>6947</PdoIndex>
+						<PdoIndex>5699</PdoIndex>
+						<PdoIndex>5923</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900ec" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900ed" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="PositionControlSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6821744</ModuleIdent>
+					<Module Id="#x030900ee" Type="PositionControl" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000070176800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6726</PdoIndex>
+						<PdoIndex>6950</PdoIndex>
+						<PdoIndex>5702</PdoIndex>
+						<PdoIndex>5926</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900ef" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f0" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f1" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="VelocityControlSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6825744</ModuleIdent>
+					<ModuleIdent>6825745</ModuleIdent>
+					<Module Id="#x030900f2" Type="VelocityControl" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000010276800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6730</PdoIndex>
+						<PdoIndex>6954</PdoIndex>
+						<PdoIndex>5706</PdoIndex>
+						<PdoIndex>5930</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="BiquadFilter1">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter2">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter3">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter4">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f3" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f4" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f5" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="TorqueControlSlot">
+					<SlotData>0200010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6833744</ModuleIdent>
+					<Module Id="#x030900f6" Type="TorqueControl" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000050466800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6738</PdoIndex>
+						<PdoIndex>6962</PdoIndex>
+						<PdoIndex>5714</PdoIndex>
+						<PdoIndex>5938</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f7" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f8" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900f9" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Motor">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6837744</ModuleIdent>
+					<ModuleIdent>6837747</ModuleIdent>
+					<Module Id="#x030900fa" Type="SyncServoMotor" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000f0556800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6742</PdoIndex>
+						<PdoIndex>6966</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Primary Feedback">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6838745</ModuleIdent>
+					<ModuleIdent>6838749</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900fb" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900fc" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900fd" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900fe" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x030900ff" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090100" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090101" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="AxisDebugSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6847754</ModuleIdent>
+				</Slot>
+				<SlotGroupData Name="Device">
+					<SlotGroup>0</SlotGroup>
+				</SlotGroupData>
+				<SlotGroupData Name="Back">
+					<SlotGroup>1</SlotGroup>
+				</SlotGroupData>
+				<SlotGroupData Name="Front">
+					<SlotGroup>2</SlotGroup>
+				</SlotGroupData>
+			</EtherCAT>
+		</Box>
+		<Box Id="41" BoxType="9099" BoxFlags="#x00000020">
+			<Name>CGSMini_Robot01OnboardAxisDriverLine1-AX8206</Name>
+			<ImageId>1001</ImageId>
+			<Xml>
+				<TcDMDrive>
+					<SortId>1</SortId>
+					<DriveModuleType>6</DriveModuleType>
+					<TcLink>
+						<TcPrjPath>..\IrrigationRobotSWProj\IrrigationSystemSWProj.tsproj</TcPrjPath>
+						<IoItemPathName>TIID^CGSMini_IrrigationSystemMainPLC^CGSMini_RobotAllMainCab-EL1200^CGSMini_Robot01MainCabEtherCATBusEK1122^CGSMini_Robot01OnboardAxisPwrSupply-AX8620^CGSMini_Robot01OnboardAxisDriverLine1-AX8206</IoItemPathName>
+						<ItemId>41</ItemId>
+						<ObjectId>#x03020029</ObjectId>
+					</TcLink>
+					<OrderCode>AX8206-0x00-0000</OrderCode>
+					<Name>CGSMini_Robot01OnboardAxisDriverLine1-AX8206</Name>
+					<ProductRevision>AX8206-0200-0104</ProductRevision>
+					<WatchLog UpdateIntervalInMs="500">
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4120" SubIndex="2"/>
+							<Alias>Type</Alias>
+						</WatchLogItem>
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4120" SubIndex="4"/>
+							<Alias>Serial Nr</Alias>
+						</WatchLogItem>
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4322" SubIndex="1"/>
+							<Alias>BIC</Alias>
+						</WatchLogItem>
+						<WatchLogItem>
+							<WatchLogParaCoE Index="4106" SubIndex="0"/>
+							<Alias>Firmware version</Alias>
+						</WatchLogItem>
+					</WatchLog>
+					<Inverter>
+						<Device>
+							<Name>DMInverterTypeDevice</Name>
+							<Parameter>
+								<PropertyName>MaxAllowedMainVoltage</PropertyName>
+								<Value>440</Value>
+							</Parameter>
+							<Parameter>
+								<PropertyName>MinDcLinkVoltage</PropertyName>
+								<Value>361.299737060519</Value>
+							</Parameter>
+							<Parameter>
+								<PropertyName>MaxDcLinkVoltage</PropertyName>
+								<Value>0</Value>
+							</Parameter>
+						</Device>
+						<Channel ChnId="0">
+							<TcLink>
+								<TcPrjPath>..\IrrigationRobotSWProj\IrrigationSystemSWProj.tsproj</TcPrjPath>
+								<IoItemPathName>TIID^CGSMini_IrrigationSystemMainPLC^CGSMini_RobotAllMainCab-EL1200^CGSMini_Robot01MainCabEtherCATBusEK1122^CGSMini_Robot01OnboardAxisPwrSupply-AX8620^CGSMini_Robot01OnboardAxisDriverLine1-AX8206</IoItemPathName>
+								<NcItemPathName AxisType="1">TINC^NC-Task 1 SAF^Axes^CGSMini_Robot01AxisLine1Back</NcItemPathName>
+							</TcLink>
+							<SelectedModifyOptPDOsMode>0</SelectedModifyOptPDOsMode>
+							<Modulo>
+								<Name>ControllerModuloType</Name>
+								<Parameter>
+									<PropertyName>Modulo_IsOn</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_DataStorage</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_Value</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MinPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MaxPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+							</Modulo>
+							<Block Id="0">
+								<Controller/>
+							</Block>
+							<WatchLog ChnId="0" UpdateIntervalInMs="500">
+								<WatchLogItem>
+									<WatchLogParaCoE Index="12992" SubIndex="1"/>
+									<Alias>Motor type</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="12993" SubIndex="6"/>
+									<Alias>Motor temperature</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="24831"/>
+									<Alias>Velocity command</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="24684"/>
+									<Alias>Actual velocity</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="24676"/>
+									<Alias>Actual position</Alias>
+								</WatchLogItem>
+							</WatchLog>
+						</Channel>
+						<Channel ChnId="1">
+							<TcLink>
+								<TcPrjPath>..\IrrigationRobotSWProj\IrrigationSystemSWProj.tsproj</TcPrjPath>
+								<IoItemPathName>TIID^CGSMini_IrrigationSystemMainPLC^CGSMini_RobotAllMainCab-EL1200^CGSMini_Robot01MainCabEtherCATBusEK1122^CGSMini_Robot01OnboardAxisPwrSupply-AX8620^CGSMini_Robot01OnboardAxisDriverLine1-AX8206</IoItemPathName>
+								<NcItemPathName AxisType="1">TINC^NC-Task 1 SAF^Axes^CGSMini_Robot01AxisLine1Front</NcItemPathName>
+							</TcLink>
+							<SelectedModifyOptPDOsMode>0</SelectedModifyOptPDOsMode>
+							<Modulo>
+								<Name>ControllerModuloType</Name>
+								<Parameter>
+									<PropertyName>Modulo_IsOn</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_DataStorage</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_Value</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MinPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+								<Parameter>
+									<PropertyName>Modulo_MaxPositionRange</PropertyName>
+									<Value>0</Value>
+								</Parameter>
+							</Modulo>
+							<Block Id="0">
+								<Controller/>
+							</Block>
+							<WatchLog ChnId="1" UpdateIntervalInMs="500">
+								<WatchLogItem>
+									<WatchLogParaCoE Index="14016" SubIndex="1"/>
+									<Alias>Motor type</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="14017" SubIndex="6"/>
+									<Alias>Motor temperature</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="26879"/>
+									<Alias>Velocity command</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="26732"/>
+									<Alias>Actual velocity</Alias>
+								</WatchLogItem>
+								<WatchLogItem>
+									<WatchLogParaCoE Index="26724"/>
+									<Alias>Actual position</Alias>
+								</WatchLogItem>
+							</WatchLog>
+						</Channel>
+					</Inverter>
+				</TcDMDrive>
+			</Xml>
+			<EtherCAT SlaveType="3" AdsServerAddress="05827f7a032afa03" FixedAdsServerNetId="true" PdiType="#x0408" MboxDataLinkLayer="true" StateMBoxPolling="true" CfgModeSafeOp="true" CycleMBoxPollingTime="0" CoeType="47" FoeType="1" VendorId="#x00000002" ProductCode="#x200e6012" RevisionNo="#x006800c8" InfoDataAddr="true" InfoDataNetId="true" InfoDataSoeDS401="true" InfoDataDcTimes="true" TimeoutStateChange1="60000" TimeoutStateChange2="30000" TimeoutStateChange3="30000" TimeoutStateChange4="300" TimeoutMailbox2="2000" GenerateOwnNetId="true" InitializeOwnNetId="true" DownloadSlotCfg="true" CheckRevisionNoType="4" PortPhys="51" IdentificationAdo="308" SafetyLogicSupported="true" DownloadSlotCfgIP="true" MaxSlotCount="96" MaxSlotGroupCount="2" Type="AX8206-0200-0104 (2Ch. 6A servo axis, safe-motion)" Desc="AX8206-0200-0104" PortABoxInfo="#x01000028">
+				<SyncMan>001000022600010001000000700000040002001026010000</SyncMan>
+				<SyncMan>001400022200010002000000700000040002001422010000</SyncMan>
+				<SyncMan>001816006400010003000000000000002400001864010000</SyncMan>
+				<SyncMan>002a2e002000010004000000000000002e00002a20010000</SyncMan>
+				<SyncMan>003c00002400000005000000000000000000003c24000000</SyncMan>
+				<SyncMan>004e00002000000006000000000000000000004e20000000</SyncMan>
+				<SyncMan>00600a002400010003000000000000000a00006024010000</SyncMan>
+				<SyncMan>00720a002000010004000000000000000a00007220010000</SyncMan>
+				<Fmmu>0000000000000000001800020100000001000000060000000200000000000000</Fmmu>
+				<Fmmu>0000000000000000002a00010100000002000000060000000300000000000000</Fmmu>
+				<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+				<Fmmu>0000000000000000000000020000000005000000060000000400010000000000</Fmmu>
+				<Fmmu>0000000000000000000000010000000006000000060000000500010000000000</Fmmu>
+				<Fmmu>0000000000000000006000020100000001000000060000000600020000000000</Fmmu>
+				<Fmmu>0000000000000000007200010100000002000000060000000700020000000000</Fmmu>
+				<BootStrapData>0010140200181402</BootStrapData>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuName></SuName>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<SuTask>#x00000000</SuTask>
+				<DcData>0007000024f4000000000000000000000000ffff000000000000000000000000</DcData>
+				<DcMode>446353796e633632353030000000000053796e63206379636c652074696d652036322e3530300000000000000000000024f400000000000000000000ffff00070000000000000000000000000000000000000000000000000000000000000000</DcMode>
+				<MBoxUserCmdData>004003000a00000000000000000000000000000000000000000000000000000020f3100502000000010000</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000a00000029000000000000000000000000000000000000000000000020022c050200000030114465766963654d61696e20506172616d6574657273202f204d61696e73206d617820766f6c7461676500</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000a0000002b000000000000000000000000000000000000000000000020022c010200000069014465766963654d61696e20506172616d6574657273202f204d696e204443206c696e6b20766f6c7461676500</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000a00000042000000000000000000000000000000000000000000000020032c0102000000f8034465766963654d61696e20506f77657220737570706c7920436f6e6e656374696f6e202f20506f77657220737570706c79204574686572434154204164647265737300</MBoxUserCmdData>
+				<MBoxUserCmdData>020003000c0000000b0000000000000000000000000000000000000000000000201d2c020400000084fb610353746172747570206b657900</MBoxUserCmdData>
+				<Pdo Name="DeviceMain Inputs" Index="#x1a00" Flags="#x0280"/>
+				<Pdo Name="DeviceMain Dynamic Inputs" Index="#x1ae0" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="DeviceMain Outputs" Index="#x1600" InOut="1" Flags="#x0280" SyncMan="2">
+					<Entry Name="Power supply controlword" BitLen="16" Index="#x2c00" Sub="#x01" Flags="#x00000800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall be linked to the Statusword of the connected PowerSupply device. (I.e. AX8620)]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="DeviceMain Dynamic Outputs" Index="#x16e0" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="FSoE Slave Connection 1 Slave Message" Index="#x1bc0" Flags="#x0080" SyncMan="7" SyncUnit="2">
+					<ExcludePdo>#x1bc1</ExcludePdo>
+					<Entry Name="FSOE__FSoE Slave Cmd" BitLen="8" Index="#xe600" Sub="#x01">
+						<Type>USINT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis A STO" BitLen="1" Index="#xf601" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_1" BitLen="1" Index="#xf601" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_2" BitLen="1" Index="#xf601" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_3" BitLen="1" Index="#xf601" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_4" BitLen="1" Index="#xf601" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_5" BitLen="1" Index="#xf601" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_6" BitLen="1" Index="#xf601" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_7" BitLen="1" Index="#xf601" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis B STO" BitLen="1" Index="#xf601" Sub="#x09">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_9" BitLen="1" Index="#xf601" Sub="#x0a">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_10" BitLen="1" Index="#xf601" Sub="#x0b">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_11" BitLen="1" Index="#xf601" Sub="#x0c">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_12" BitLen="1" Index="#xf601" Sub="#x0d">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_13" BitLen="1" Index="#xf601" Sub="#x0e">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_14" BitLen="1" Index="#xf601" Sub="#x0f">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Input_15" BitLen="1" Index="#xf601" Sub="#x10">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Slave CRC_0" BitLen="16" Index="#xe600" Sub="#x03">
+						<Type>UINT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Slave ConnID" BitLen="16" Index="#xe600" Sub="#x02">
+						<Type>UINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 1 Master Message" Index="#x1bc1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc0</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 2 Slave Message" Index="#x1bc2" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc3</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 2 Master Message" Index="#x1bc3" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc2</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 3 Slave Message" Index="#x1bc4" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc5</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 3 Master Message" Index="#x1bc5" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc4</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 4 Slave Message" Index="#x1bc6" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc7</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 4 Master Message" Index="#x1bc7" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc6</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 5 Slave Message" Index="#x1bc8" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc9</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 5 Master Message" Index="#x1bc9" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bc8</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 6 Slave Message" Index="#x1bca" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcb</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 6 Master Message" Index="#x1bcb" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bca</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 7 Slave Message" Index="#x1bcc" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcd</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 7 Master Message" Index="#x1bcd" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcc</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 8 Slave Message" Index="#x1bce" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bcf</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 8 Master Message" Index="#x1bcf" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x1bce</ExcludePdo>
+				</Pdo>
+				<Pdo Name="Standard Inputdata" Index="#x1bf0" Flags="#x0080" SyncMan="7" SyncUnit="2">
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Input" BitLen="1" Index="#xf606" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Function Block Info Data" Index="#x1bf1" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="Connection Info Data" Index="#x1bf6" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="Group Info Data" Index="#x1bf9" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="Device Info Data" Index="#x1bfb" Flags="#x0080" SyncUnit="2"/>
+				<Pdo Name="FSLOGIC Inputs" Index="#x1bff" Flags="#x0091" SyncMan="7" SyncUnit="2">
+					<Entry Name="FSOE__Safe Logic State" BitLen="8" Index="#xf100" Sub="#x01">
+						<Type>USINT</Type>
+					</Entry>
+					<Entry Name="FSOE__Cycle Counter" BitLen="8" Index="#xf100" Sub="#x02">
+						<Type>USINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 1 Master Message" Index="#x17c0" InOut="1" Flags="#x0080" SyncMan="6" SyncUnit="2">
+					<ExcludePdo>#x17c1</ExcludePdo>
+					<Entry Name="FSOE__FSoE Master Cmd" BitLen="8" Index="#xe700" Sub="#x01">
+						<Type>USINT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis A STO" BitLen="1" Index="#xf701" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_1" BitLen="1" Index="#xf701" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_2" BitLen="1" Index="#xf701" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_3" BitLen="1" Index="#xf701" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_4" BitLen="1" Index="#xf701" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_5" BitLen="1" Index="#xf701" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_6" BitLen="1" Index="#xf701" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_7" BitLen="1" Index="#xf701" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Axis B STO" BitLen="1" Index="#xf701" Sub="#x09">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_9" BitLen="1" Index="#xf701" Sub="#x0a">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_10" BitLen="1" Index="#xf701" Sub="#x0b">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_11" BitLen="1" Index="#xf701" Sub="#x0c">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_12" BitLen="1" Index="#xf701" Sub="#x0d">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_13" BitLen="1" Index="#xf701" Sub="#x0e">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_14" BitLen="1" Index="#xf701" Sub="#x0f">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Safe Output_15" BitLen="1" Index="#xf701" Sub="#x10">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Master CRC_0" BitLen="16" Index="#xe700" Sub="#x03">
+						<Type>UINT</Type>
+					</Entry>
+					<Entry Name="FSOE__FSoE Master ConnID" BitLen="16" Index="#xe700" Sub="#x02">
+						<Type>UINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 1 Slave Message" Index="#x17c1" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c0</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 2 Master Message" Index="#x17c2" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c3</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 2 Slave Message" Index="#x17c3" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c2</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 3 Master Message" Index="#x17c4" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c5</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 3 Slave Message" Index="#x17c5" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c4</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 4 Master Message" Index="#x17c6" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c7</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 4 Slave Message" Index="#x17c7" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c6</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 5 Master Message" Index="#x17c8" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c9</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 5 Slave Message" Index="#x17c9" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17c8</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 6 Master Message" Index="#x17ca" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cb</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 6 Slave Message" Index="#x17cb" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17ca</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 7 Master Message" Index="#x17cc" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cd</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 7 Slave Message" Index="#x17cd" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cc</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Slave Connection 8 Master Message" Index="#x17ce" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17cf</ExcludePdo>
+				</Pdo>
+				<Pdo Name="FSoE Master Connection 8 Slave Message" Index="#x17cf" InOut="1" Flags="#x0080" SyncUnit="2">
+					<ExcludePdo>#x17ce</ExcludePdo>
+				</Pdo>
+				<Pdo Name="Standard Outputdata" Index="#x17f0" InOut="1" Flags="#x0080" SyncMan="6" SyncUnit="2">
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x01">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x02">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x03">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x04">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x05">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x06">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x07">
+						<Type>BIT</Type>
+					</Entry>
+					<Entry Name="FSOE__Std Output" BitLen="1" Index="#xf706" Sub="#x08">
+						<Type>BIT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="FSLOGIC Outputs" Index="#x17ff" InOut="1" Flags="#x0091" SyncMan="6" SyncUnit="2">
+					<Entry Name="FSOE__" BitLen="16">
+						<Type GUID="{18071995-0000-0000-0000-002000000010}">ARRAY [0..1] OF BYTE</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A AxisMain Inputs" Index="#x1a20" Flags="#x0281" SyncMan="3">
+					<Entry BitLen="1" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000001}">ARRAY [0..0] OF BIT</Type>
+					</Entry>
+					<Entry Name="Position actual value invalid" BitLen="1" Index="#x603e" Sub="#x02" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry Name="1st Additional position actual value invalid" BitLen="1" Index="#x603e" Sub="#x03" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the first position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry BitLen="5" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000005}">ARRAY [0..4] OF BIT</Type>
+					</Entry>
+					<Entry Name="Ch A Statusword" BitLen="16" Index="#x6041" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall provide the status of the PDS FSA.
+- Bit 0: Ready to switch on
+- Bit 1: Switched on
+- Bit 2: Operation enabled
+- Bit 3: Fault
+- Bit 4: Voltage enabled
+- Bit 5: Quick stop
+- Bit 6: Switch on disabled
+- Bit 7: Warning
+- Bit 8: reserved
+- Bit 9: Remote
+- Bit 10: Status toggle (see also Object 0x60D9 and 0x60DA)
+- Bit 11: Internal limit active
+- Bit 12: Drive follows the command value (cyclic modes of operation)
+- Bit 13: Input cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 14: reserved
+- Bit 15: reserved]]></Comment>
+					</Entry>
+					<Entry Name="Ch A Position actual value" BitLen="32" Index="#x6064" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the position measurement device.]]></Comment>
+					</Entry>
+					<Entry Name="Ch A Digital inputs" BitLen="32" Index="#x60fd" Flags="#x00002000">
+						<Type>UDINT</Type>
+					</Entry>
+					<Entry Name="IGBT temperature" BitLen="16" Index="#x3001" Sub="#x02">
+						<Type>INT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A AxisMain Dynamic Inputs" Index="#x1b00" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A AxisMain Outputs" Index="#x1620" InOut="1" Flags="#x0281" SyncMan="2">
+					<Entry Name="Ch A Controlword" BitLen="16" Index="#x6040" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall indicate the received command controlling the PDS FSA.
+- Bit 0: Switch on
+- Bit 1: Enable voltage
+- Bit 2: Quick stop
+- Bit 3: Enable operation
+- Bit 4: reserved
+- Bit 5-6: Output cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 7: Fault reset
+- Bit 8: Halt
+- Bit 9-15: reserved]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A AxisMain Dynamic Outputs" Index="#x1700" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A Interpolator Inputs" Index="#x1a23" Flags="#x0280"/>
+				<Pdo Name="Ch A Interpolator Dynamic Inputs" Index="#x1b03" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A Interpolator Outputs" Index="#x1623" InOut="1" Flags="#x0280" SyncMan="2">
+					<Entry Name="Ch A Target position" BitLen="32" Index="#x607a" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the commanded position that the drive should move to in position profile mode using the current settings of motion control parameters such as velocity, acceleration, deceleration, motion profile type etc.]]></Comment>
+					</Entry>
+					<Entry Name="Ch A Target velocity" BitLen="32" Index="#x60ff" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the configured target velocity and shall be used as input for the trajectory generator. The value shall be given in user-defined velocity units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A Interpolator Dynamic Outputs" Index="#x1703" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A PositionControl Inputs" Index="#x1a26" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch A Following error actual value" BitLen="32" Index="#x60f4" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the following error. The value shall be given in user-defined position units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A PositionControl Dynamic Inputs" Index="#x1b06" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A PositionControl Outputs" Index="#x1626" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch A PositionControl Dynamic Outputs" Index="#x1706" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A VelocityControl Inputs" Index="#x1a2a" Flags="#x0280"/>
+				<Pdo Name="Ch A VelocityControl Dynamic Inputs" Index="#x1b0a" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A VelocityControl Outputs" Index="#x162a" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch A VelocityControl Dynamic Outputs" Index="#x170a" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A TorqueControl Inputs" Index="#x1a32" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch A Torque/force actual value" BitLen="16" Index="#x6077" Flags="#x00002000">
+						<Type>INT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A TorqueControl Dynamic Inputs" Index="#x1b12" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A TorqueControl Outputs" Index="#x1632" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch A TorqueControl Dynamic Outputs" Index="#x1712" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch A SyncServoMotor Inputs" Index="#x1a36" Flags="#x0280" SyncMan="3">
+					<Entry Name="Actual motor temperature" BitLen="32" Index="#x32c1" Sub="#x06">
+						<Type>REAL</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch A SyncServoMotor Dynamic Inputs" Index="#x1b16" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B AxisMain Inputs" Index="#x1a40" Flags="#x0281" SyncMan="3">
+					<Entry BitLen="1" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000001}">ARRAY [0..0] OF BIT</Type>
+					</Entry>
+					<Entry Name="Position actual value invalid" BitLen="1" Index="#x683e" Sub="#x02" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry Name="1st Additional position actual value invalid" BitLen="1" Index="#x683e" Sub="#x03" Flags="#x00002800">
+						<Type>BIT</Type>
+						<Comment><![CDATA[This object shall indicate if the first position encoder measured value is in invalid state.]]></Comment>
+					</Entry>
+					<Entry BitLen="5" Flags="#x00000800">
+						<Type GUID="{18071995-0000-0000-0000-002000000005}">ARRAY [0..4] OF BIT</Type>
+					</Entry>
+					<Entry Name="Ch B Statusword" BitLen="16" Index="#x6841" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall provide the status of the PDS FSA.
+- Bit 0: Ready to switch on
+- Bit 1: Switched on
+- Bit 2: Operation enabled
+- Bit 3: Fault
+- Bit 4: Voltage enabled
+- Bit 5: Quick stop
+- Bit 6: Switch on disabled
+- Bit 7: Warning
+- Bit 8: reserved
+- Bit 9: Remote
+- Bit 10: Status toggle (see also Object 0x60D9 and 0x60DA)
+- Bit 11: Internal limit active
+- Bit 12: Drive follows the command value (cyclic modes of operation)
+- Bit 13: Input cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 14: reserved
+- Bit 15: reserved]]></Comment>
+					</Entry>
+					<Entry Name="Ch B Position actual value" BitLen="32" Index="#x6864" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the position measurement device.]]></Comment>
+					</Entry>
+					<Entry Name="IGBT temperature" BitLen="16" Index="#x3401" Sub="#x02">
+						<Type>INT</Type>
+					</Entry>
+					<Entry Name="Ch B Digital inputs" BitLen="32" Index="#x68fd" Flags="#x00002000">
+						<Type>UDINT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B AxisMain Dynamic Inputs" Index="#x1b20" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B AxisMain Outputs" Index="#x1640" InOut="1" Flags="#x0281" SyncMan="2">
+					<Entry Name="Ch B Controlword" BitLen="16" Index="#x6840" Flags="#x00002800">
+						<Type>UINT</Type>
+						<Comment><![CDATA[This object shall indicate the received command controlling the PDS FSA.
+- Bit 0: Switch on
+- Bit 1: Enable voltage
+- Bit 2: Quick stop
+- Bit 3: Enable operation
+- Bit 4: reserved
+- Bit 5-6: Output cycle counter (see also Object 0x60D9 and 0x60DA)
+- Bit 7: Fault reset
+- Bit 8: Halt
+- Bit 9-15: reserved]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B AxisMain Dynamic Outputs" Index="#x1720" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B Interpolator Inputs" Index="#x1a43" Flags="#x0280"/>
+				<Pdo Name="Ch B Interpolator Dynamic Inputs" Index="#x1b23" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B Interpolator Outputs" Index="#x1643" InOut="1" Flags="#x0280" SyncMan="2">
+					<Entry Name="Ch B Target position" BitLen="32" Index="#x687a" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the commanded position that the drive should move to in position profile mode using the current settings of motion control parameters such as velocity, acceleration, deceleration, motion profile type etc.]]></Comment>
+					</Entry>
+					<Entry Name="Ch B Target velocity" BitLen="32" Index="#x68ff" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall indicate the configured target velocity and shall be used as input for the trajectory generator. The value shall be given in user-defined velocity units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B Interpolator Dynamic Outputs" Index="#x1723" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B PositionControl Inputs" Index="#x1a46" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch B Following error actual value" BitLen="32" Index="#x68f4" Flags="#x00002000">
+						<Type>DINT</Type>
+						<Comment><![CDATA[This object shall provide the actual value of the following error. The value shall be given in user-defined position units.]]></Comment>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B PositionControl Dynamic Inputs" Index="#x1b26" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B PositionControl Outputs" Index="#x1646" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch B PositionControl Dynamic Outputs" Index="#x1726" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B VelocityControl Inputs" Index="#x1a4a" Flags="#x0280"/>
+				<Pdo Name="Ch B VelocityControl Dynamic Inputs" Index="#x1b2a" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B VelocityControl Outputs" Index="#x164a" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch B VelocityControl Dynamic Outputs" Index="#x172a" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B TorqueControl Inputs" Index="#x1a52" Flags="#x0280" SyncMan="3">
+					<Entry Name="Ch B Torque/force actual value" BitLen="16" Index="#x6877" Flags="#x00002000">
+						<Type>INT</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B TorqueControl Dynamic Inputs" Index="#x1b32" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B TorqueControl Outputs" Index="#x1652" InOut="1" Flags="#x0280"/>
+				<Pdo Name="Ch B TorqueControl Dynamic Outputs" Index="#x1732" InOut="1" Flags="#x0280" SyncUnit="1"/>
+				<Pdo Name="Ch B SyncServoMotor Inputs" Index="#x1a56" Flags="#x0280" SyncMan="3">
+					<Entry Name="Actual motor temperature" BitLen="32" Index="#x36c1" Sub="#x06">
+						<Type>REAL</Type>
+					</Entry>
+				</Pdo>
+				<Pdo Name="Ch B SyncServoMotor Dynamic Inputs" Index="#x1b36" Flags="#x0280" SyncUnit="1"/>
+				<CoeProfile ProfileNo="402" DisplayName="Ch A"/>
+				<CoeProfile ProfileNo="402" DisplayName="Ch B"/>
+				<Slot Name="DeviceMainSlot">
+					<SlotData>0000010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6815844</ModuleIdent>
+					<Module Id="#x03090102" Type="DeviceMain" Class="">
+						<Name>Device</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000064006800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6656</PdoIndex>
+						<PdoIndex>6880</PdoIndex>
+						<PdoIndex>5632</PdoIndex>
+						<PdoIndex>5856</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090103" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090104" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090105" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090106" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090107" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090108" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090109" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309010a" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309010b" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="SafetySlot">
+					<SlotData>0000000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6815857</ModuleIdent>
+					<ModuleIdent>6750321</ModuleIdent>
+					<Module Id="#x0309010c" Type="SafeMotion" Class="113">
+						<Name>Device (Safety)</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>020000007100680000002c000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>7104</PdoIndex>
+						<PdoIndex>7105</PdoIndex>
+						<PdoIndex>7106</PdoIndex>
+						<PdoIndex>7107</PdoIndex>
+						<PdoIndex>7108</PdoIndex>
+						<PdoIndex>7109</PdoIndex>
+						<PdoIndex>7110</PdoIndex>
+						<PdoIndex>7111</PdoIndex>
+						<PdoIndex>7112</PdoIndex>
+						<PdoIndex>7113</PdoIndex>
+						<PdoIndex>7114</PdoIndex>
+						<PdoIndex>7115</PdoIndex>
+						<PdoIndex>7116</PdoIndex>
+						<PdoIndex>7117</PdoIndex>
+						<PdoIndex>7118</PdoIndex>
+						<PdoIndex>7119</PdoIndex>
+						<PdoIndex>7152</PdoIndex>
+						<PdoIndex>7153</PdoIndex>
+						<PdoIndex>7158</PdoIndex>
+						<PdoIndex>7161</PdoIndex>
+						<PdoIndex>7163</PdoIndex>
+						<PdoIndex>7167</PdoIndex>
+						<PdoIndex>6080</PdoIndex>
+						<PdoIndex>6081</PdoIndex>
+						<PdoIndex>6082</PdoIndex>
+						<PdoIndex>6083</PdoIndex>
+						<PdoIndex>6084</PdoIndex>
+						<PdoIndex>6085</PdoIndex>
+						<PdoIndex>6086</PdoIndex>
+						<PdoIndex>6087</PdoIndex>
+						<PdoIndex>6088</PdoIndex>
+						<PdoIndex>6089</PdoIndex>
+						<PdoIndex>6090</PdoIndex>
+						<PdoIndex>6091</PdoIndex>
+						<PdoIndex>6092</PdoIndex>
+						<PdoIndex>6093</PdoIndex>
+						<PdoIndex>6094</PdoIndex>
+						<PdoIndex>6095</PdoIndex>
+						<PdoIndex>6128</PdoIndex>
+						<PdoIndex>6143</PdoIndex>
+						<CoeProfile ProfileNo="#x01231389"/>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309010d" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309010e" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309010f" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090110" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090111" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090112" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090113" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090114" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090115" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090116" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090117" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090118" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090119" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309011a" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309011b" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309011c" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309011d" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309011e" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309011f" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0000010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090120" Type="Empty Module" Class="">
+						<Name>Device</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="DeviceDebugSlot">
+					<SlotData>0000000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6847744</ModuleIdent>
+				</Slot>
+				<Slot Name="AxisMainSlot">
+					<SlotData>0100010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6816744</ModuleIdent>
+					<Module Id="#x03090121" Type="AxisMain" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000e8036800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6688</PdoIndex>
+						<PdoIndex>6912</PdoIndex>
+						<PdoIndex>5664</PdoIndex>
+						<PdoIndex>5888</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090122" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090123" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="InterpolatorSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6818744</ModuleIdent>
+					<Module Id="#x03090124" Type="Interpolator" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000b80b6800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6691</PdoIndex>
+						<PdoIndex>6915</PdoIndex>
+						<PdoIndex>5667</PdoIndex>
+						<PdoIndex>5891</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090125" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090126" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="PositionControlSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6821744</ModuleIdent>
+					<Module Id="#x03090127" Type="PositionControl" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000070176800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6694</PdoIndex>
+						<PdoIndex>6918</PdoIndex>
+						<PdoIndex>5670</PdoIndex>
+						<PdoIndex>5894</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090128" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090129" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309012a" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="VelocityControlSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6825744</ModuleIdent>
+					<ModuleIdent>6825745</ModuleIdent>
+					<Module Id="#x0309012b" Type="VelocityControl" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000010276800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6698</PdoIndex>
+						<PdoIndex>6922</PdoIndex>
+						<PdoIndex>5674</PdoIndex>
+						<PdoIndex>5898</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="BiquadFilter1">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter2">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter3">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter4">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309012c" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309012d" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309012e" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="TorqueControlSlot">
+					<SlotData>0100010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6833744</ModuleIdent>
+					<Module Id="#x0309012f" Type="TorqueControl" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000050466800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6706</PdoIndex>
+						<PdoIndex>6930</PdoIndex>
+						<PdoIndex>5682</PdoIndex>
+						<PdoIndex>5906</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090130" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090131" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090132" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Motor">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6837744</ModuleIdent>
+					<ModuleIdent>6837747</ModuleIdent>
+					<Module Id="#x03090133" Type="SyncServoMotor" Class="">
+						<Name>Back</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000f0556800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6710</PdoIndex>
+						<PdoIndex>6934</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Primary Feedback">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6838745</ModuleIdent>
+					<ModuleIdent>6838749</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090134" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090135" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090136" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090137" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090138" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090139" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0100010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309013a" Type="Empty Module" Class="">
+						<Name>Back</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="AxisDebugSlot">
+					<SlotData>0100000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6847754</ModuleIdent>
+				</Slot>
+				<Slot Name="AxisMainSlot">
+					<SlotData>0200010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6816744</ModuleIdent>
+					<Module Id="#x0309013b" Type="AxisMain" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000e8036800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6720</PdoIndex>
+						<PdoIndex>6944</PdoIndex>
+						<PdoIndex>5696</PdoIndex>
+						<PdoIndex>5920</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309013c" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309013d" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="InterpolatorSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6818744</ModuleIdent>
+					<Module Id="#x0309013e" Type="Interpolator" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000b80b6800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6723</PdoIndex>
+						<PdoIndex>6947</PdoIndex>
+						<PdoIndex>5699</PdoIndex>
+						<PdoIndex>5923</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309013f" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090140" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="PositionControlSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6821744</ModuleIdent>
+					<Module Id="#x03090141" Type="PositionControl" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000070176800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6726</PdoIndex>
+						<PdoIndex>6950</PdoIndex>
+						<PdoIndex>5702</PdoIndex>
+						<PdoIndex>5926</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090142" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090143" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090144" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="VelocityControlSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6825744</ModuleIdent>
+					<ModuleIdent>6825745</ModuleIdent>
+					<Module Id="#x03090145" Type="VelocityControl" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000010276800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6730</PdoIndex>
+						<PdoIndex>6954</PdoIndex>
+						<PdoIndex>5706</PdoIndex>
+						<PdoIndex>5930</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="BiquadFilter1">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter2">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter3">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="BiquadFilter4">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6826744</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090146" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090147" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090148" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="TorqueControlSlot">
+					<SlotData>0200010001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6833744</ModuleIdent>
+					<Module Id="#x03090149" Type="TorqueControl" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>0200000050466800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6738</PdoIndex>
+						<PdoIndex>6962</PdoIndex>
+						<PdoIndex>5714</PdoIndex>
+						<PdoIndex>5938</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309014a" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309014b" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309014c" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Motor">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6837744</ModuleIdent>
+					<ModuleIdent>6837747</ModuleIdent>
+					<Module Id="#x0309014d" Type="SyncServoMotor" Class="">
+						<Name>Front</Name>
+						<ImageId>416</ImageId>
+						<ModuleData>02000000f0556800000004000000000000000000000000000000000000000000</ModuleData>
+						<PdoIndex>6742</PdoIndex>
+						<PdoIndex>6966</PdoIndex>
+					</Module>
+				</Slot>
+				<Slot Name="Primary Feedback">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6838745</ModuleIdent>
+					<ModuleIdent>6838749</ModuleIdent>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309014e" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x0309014f" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090150" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090151" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090152" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090153" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="Empty Slot">
+					<SlotData>0200010001000600000000000000000000000000000000000000000000000000</SlotData>
+					<ModuleIdent>0</ModuleIdent>
+					<Module Id="#x03090154" Type="Empty Module" Class="">
+						<Name>Front</Name>
+						<ImageId>415</ImageId>
+						<ModuleData>0200000000000000000004000000000000000000000000000000000000000000</ModuleData>
+					</Module>
+				</Slot>
+				<Slot Name="AxisDebugSlot">
+					<SlotData>0200000001000600010000002000000800000000000000000000000000000000</SlotData>
+					<ModuleIdent>6847754</ModuleIdent>
+				</Slot>
+				<SlotGroupData Name="Device">
+					<SlotGroup>0</SlotGroup>
+				</SlotGroupData>
+				<SlotGroupData Name="Back">
+					<SlotGroup>1</SlotGroup>
+				</SlotGroupData>
+				<SlotGroupData Name="Front">
+					<SlotGroup>2</SlotGroup>
+				</SlotGroupData>
+			</EtherCAT>
+		</Box>
+		<Box Id="42" BoxType="9099">
+			<Name>CGSMini_Robot01OnboardBoxEndBus-EL9011</Name>
+			<ImageId>1002</ImageId>
+			<EtherCAT CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x23333050" InfoDataState="false" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL9011 End Terminal" Desc="EL9011" PortABoxInfo="#x01000029"/>
+		</Box>
+	</Box>
+</TcSmItem>

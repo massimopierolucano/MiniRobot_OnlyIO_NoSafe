@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_UPS_HWI" Id="{ed884878-89a5-46e2-8aa7-587b8b6ce069}">
+    <Declaration><![CDATA[TYPE ST_UPS_HWI :
+STRUCT
+  bPowerReady	      	: BOOL;
+  bPowerFail		      : BOOL;	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_Robot_HWQ" Id="{c03c68b8-1e54-4841-90d7-48a91a6da79b}">
+    <Declaration><![CDATA[TYPE ST_Robot_HWQ :
+STRUCT
+  	//OutN01
+		FlushFloor  	          : BOOL;  
+		IrrigLine1  		        : BOOL;
+    IrrigLine2    	        : BOOL; 
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

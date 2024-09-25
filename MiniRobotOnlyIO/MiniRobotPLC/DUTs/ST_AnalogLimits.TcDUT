@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_AnalogLimits" Id="{16212eed-84d7-4375-bc98-9191d52848b6}">
+    <Declaration><![CDATA[TYPE ST_AnalogLimits :
+STRUCT
+  lrAroundZero        : LREAL; //to check if the value is around zero
+	lrRawLowerLimit		  : LREAL; // Lower limit for raw data
+	lrRawUpperLimit		  : LREAL; // Upper limit for raw data
+	lrScaleLowerLimit	  : LREAL; // Lower limit of scaled measurement
+	lrScaleUpperLimit	  : LREAL; // Upper limit of scaled measurement
+  bForceZero          : BOOL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

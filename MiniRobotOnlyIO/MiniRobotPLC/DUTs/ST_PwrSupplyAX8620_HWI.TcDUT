@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_PwrSupplyAX8620_HWI" Id="{f3b2aa7e-2409-4e63-b104-25599a1517fc}">
+    <Declaration><![CDATA[TYPE ST_PwrSupplyAX8620_HWI :
+STRUCT
+  comState          : ST_CardState_HWI;
+  sdiDcOutputShift  : DINT;
+  sdiDcInputShift   : DINT;
+
+  bOverTemp         : BOOL;
+  bFanMalfunc       : BOOL;
+  bUnderVoltage     : BOOL; // Power supply undervoltage
+  bOverVoltage      : BOOL; // Power supply overvoltage
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

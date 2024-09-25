@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_OverCurrProtection_HWQ" Id="{7bbb8374-8ae1-4712-a7a1-0be615895038}">
+    <Declaration><![CDATA[TYPE ST_OverCurrProtection_HWQ :
+STRUCT
+  bCtrlResetCh1   : BOOL;
+  bCtrlSwitchCh1  : BOOL;
+  bCtrlResetCh2   : BOOL;
+  bCtrlSwitchCh2  : BOOL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_RobotIdentification_HWI" Id="{69a546f1-c7d6-4559-92c8-beb3a5f02b37}">
+    <Declaration><![CDATA[TYPE ST_RobotIdentification_HWI :
+STRUCT
+    bSelBit0                : BOOL;
+    bSelBit1                : BOOL;
+    bSelBit2                : BOOL;
+    bSelBit3                : BOOL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

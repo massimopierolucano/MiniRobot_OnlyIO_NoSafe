@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.47" ClassName="CFlbTermDef" SubType="9099">
+	<Box Id="34" BoxType="9099">
+		<Name>__FILENAME__</Name>
+		<ImageId>114</ImageId>
+		<EtherCAT SlaveType="2" PdiType="#x0006" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="23" EoeType="1" VendorId="#x01000056" ProductCode="#x00005800" RevisionNo="#x00000002" SerialNo="#x0165d228" InfoDataAddr="true" PortPhys="17" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="DL100" Desc="DL100">
+			<SyncMan>001080003600010001000000000000008000001036010000</SyncMan>
+			<SyncMan>801080003200010002000000000000008000801032010000</SyncMan>
+			<SyncMan>001100007400000003000000000000000000001174010000</SyncMan>
+			<SyncMan>001d04003000010004000000000000000400001d30010000</SyncMan>
+			<Fmmu>0000000000000000000000020000000001000000000000000000000000000000</Fmmu>
+			<Fmmu>0000000000000000001d00010100000002000000000000000000000000000000</Fmmu>
+			<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+			<SwitchPortData>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</SwitchPortData>
+			<BootStrapData>0010000000100000</BootStrapData>
+			<Pdo Name="Distance" Index="#x1a00" Flags="#x0010" SyncMan="3">
+				<Entry Name="Distance" Index="#x6004">
+					<Type>UDINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Velocity" Index="#x1a03" Flags="#x0010">
+				<Entry Name="Velocity" Index="#x6030">
+					<Type>INT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Error and Status" Index="#x1a04" Flags="#x0010">
+				<Entry Name="Error and Status" Index="#x4007">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="Command" Index="#x1600" InOut="1" Flags="#x0010">
+				<Entry Name="Command" Index="#x4006">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+		</EtherCAT>
+	</Box>
+</TcSmItem>

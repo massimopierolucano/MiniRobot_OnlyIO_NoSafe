@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GIQ_Robot01" Id="{eef4e233-9823-4e3c-834f-ad07c940bdd3}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+
+{IF defined (debugCompile)}
+VAR_GLOBAL
+	stIN	    : ST_Robot_HWI;	
+  stBoxIN   : ST_RobotLineBox_HWI;
+	stOUT     : ST_Robot_HWQ;
+  stBoxOUT  : ST_RobotLineBox_HWQ;
+  stAxes    : ST_Robot_Axes;
+END_VAR
+{END_IF}
+
+VAR_GLOBAL
+{attribute 'TcLinkTo':='.stInN01_1008State.uiDataState      := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^InfoData^State;
+                        .stInN01_1008State.bWCState         := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^WcState^WcState;  
+                        .stAnaInN01_3202State.uiDataState   := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^InfoData^State;
+                        .stAnaInN01_3202State.bWCState      := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^WcState^WcState; 
+                        .stAnaInN02_3054State.uiDataState   := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^InfoData^State;
+                        .stAnaInN02_3054State.bWCState      := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^WcState^WcState; 
+                        .stAnaInN03_3202State.uiDataState   := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^InfoData^State;
+                        .stAnaInN03_3202State.bWCState      := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^WcState^WcState; 
+                        .stOverCProt1_9222State.uiDataState := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^InfoData^State;
+                        .stOverCProt1_9222State.bWCState    := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^WcState^WcState;                     
+ 
+                        .stSafety_1918State.uiDataState     := TIIB[CGSMini_Robot01LineBoxSafeInN01-EL1918]^InfoData^State;
+                        .stSafety_1918State.bWcState        := TIIB[CGSMini_Robot01LineBoxSafeInN01-EL1918]^WcState^WcState;
+
+                        .stRemoteCtrl.BtnForwardMan         := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 1^BtnForwardMan;
+                        .stRemoteCtrl.BtnBackwardMan        := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 2^BtnBackwardMan;
+                        .stRemoteCtrl.BtnValveLine1Man      := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 3^BtnValveLine1Man;
+                        .stRemoteCtrl.BtnValveLine2Man      := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 4^BtnValveLine2Man;
+                       
+                        .stRobotID.bSelBit0                 := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 5^SelLineBit0;
+                        .stRobotID.bSelBit1                 := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 6^SelLineBit1;
+                        .stRobotID.bSelBit2                 := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 7^SelLineBit2;
+                        .stRobotID.bSelBit3                 := TIIB[CGSMini_Robot01LineBoxInN01-EL1008]^Channel 8^SelLineBit3;
+
+                        .stAnaRTDLine1.bTUnderRange         := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD1^Status^Underrange;
+                        .stAnaRTDLine1.bTOverRange          := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD1^Status^Overrange;
+                        .stAnaRTDLine1.bTLimit1             := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD1^Status^Limit 1;
+                        .stAnaRTDLine1.bTLimit2             := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD1^Status^Limit 2;
+                        .stAnaRTDLine1.bTError              := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD1^Status^Error;
+                        .stAnaRTDLine1.siAnaRaw             := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD1^Value;
+ 
+                        .stAnaRTDLine2.bTUnderRange         := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD2^Status^Underrange;
+                        .stAnaRTDLine2.bTOverRange          := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD2^Status^Overrange;
+                        .stAnaRTDLine2.bTLimit1             := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD2^Status^Limit 1;
+                        .stAnaRTDLine2.bTLimit2             := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD2^Status^Limit 2;
+                        .stAnaRTDLine2.bTError              := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD2^Status^Error;
+                        .stAnaRTDLine2.siAnaRaw             := TIIB[CGSMini_Robot01LineBoxAnaInN01-EL3202]^RTD2^Value;
+
+                        .stAnaFlowLine1.bTUnderRange        := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow1^Status^Underrange;
+                        .stAnaFlowLine1.bTOverRange         := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow1^Status^Overrange;
+                        .stAnaFlowLine1.bTLimit1            := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow1^Status^Limit 1;
+                        .stAnaFlowLine1.bTLimit2            := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow1^Status^Limit 2;
+                        .stAnaFlowLine1.bTError             := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow1^Status^Error;
+                        .stAnaFlowLine1.siAnaRaw            := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow1^Value;
+                        
+                        .stAnaFlowLine2.bTUnderRange        := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow2^Status^Underrange;
+                        .stAnaFlowLine2.bTOverRange         := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow2^Status^Overrange;
+                        .stAnaFlowLine2.bTLimit1            := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow2^Status^Limit 1;
+                        .stAnaFlowLine2.bTLimit2            := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow2^Status^Limit 2;
+                        .stAnaFlowLine2.bTError             := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow2^Status^Error;
+                        .stAnaFlowLine2.siAnaRaw            := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Flow2^Value;
+                       													
+                        .stAnaPressure.bTUnderRange         := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Pressure1^Status^Underrange;
+                        .stAnaPressure.bTOverRange          := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Pressure1^Status^Overrange;
+                        .stAnaPressure.bTLimit1             := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Pressure1^Status^Limit 1;
+                        .stAnaPressure.bTLimit2             := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Pressure1^Status^Limit 2;
+                        .stAnaPressure.bTError              := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Pressure1^Status^Error;
+                        .stAnaPressure.siAnaRaw             := TIIB[CGSMini_Robot01LineBoxAnaInN02-EL3054]^Pressure1^Value;
+
+                        .stAnaRTDInternal.bTUnderRange      := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDInternal^Status^Underrange;
+                        .stAnaRTDInternal.bTOverRange       := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDInternal^Status^Overrange;
+                        .stAnaRTDInternal.bTLimit1          := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDInternal^Status^Limit 1;
+                        .stAnaRTDInternal.bTLimit2          := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDInternal^Status^Limit 2;
+                        .stAnaRTDInternal.bTError           := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDInternal^Status^Error;
+                        .stAnaRTDInternal.siAnaRaw          := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDInternal^Value;
+
+                        .stAnaRTDExternal.bTUnderRange      := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDExternal^Status^Underrange;
+                        .stAnaRTDExternal.bTOverRange       := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDExternal^Status^Overrange;
+                        .stAnaRTDExternal.bTLimit1          := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDExternal^Status^Limit 1;
+                        .stAnaRTDExternal.bTLimit2          := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDExternal^Status^Limit 2;
+                        .stAnaRTDExternal.bTError           := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDExternal^Status^Error;
+                        .stAnaRTDExternal.siAnaRaw          := TIIB[CGSMini_Robot01LineBoxAnaInN03-EL3202]^RTDExternal^Value;
+                        
+                        .stOverCProt.bEnabled               := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^OCP Inputs Channel 1^Status^Enabled;
+                        .stOverCProt.bError                 := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^OCP Inputs Channel 1^Status^Error;'}
+  stBoxIN AT %I*:ST_RobotLineBox_HWI;
+
+{attribute 'TcLinkTo':='.stOverCProtOut.bCtrlResetCh1       := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^OCP Outputs Channel 1^Control^Reset;
+                        .stOverCProtOut.bCtrlSwitchCh1      := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^OCP Outputs Channel 1^Control^Switch;
+                        .stOverCProtOut.bCtrlResetCh2       := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^OCP Outputs Channel 2^Control^Reset;
+                        .stOverCProtOut.bCtrlSwitchCh2      := TIIB[CGSMini_Robot01LineBoxOverCurrProt1-EL9222]^OCP Outputs Channel 2^Control^Switch;'}
+  stBoxOUT AT %Q*:ST_RobotLineBox_HWQ;
+  
+{attribute 'TcLinkTo':='.stAnaInN04_3054State.uiDataState   := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^InfoData^State;
+                        .stAnaInN04_3054State.bWCState      := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^WcState^WcState;
+                        .stOnboardBox_1100State.uiDataState := TIIB[CGSMini_Robot01OnboardBox-EK1100]^InfoData^State;
+                        .stOutN01_2008State.uiDataState     := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^InfoData^State;
+                        .stOutN01_2008State.bWCState        := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^WcState^WcState;
+                        
+                        .stLaserPos_State.uiDataState       := TIIB[CGSMini_Robot01Laser-SickDL100]^InfoData^State;
+                        .stLaserPos_State.bWCState          := TIIB[CGSMini_Robot01Laser-SickDL100]^WcState^WcState;
+                        .stLaserPos.udiDistanceRaw          := TIIB[CGSMini_Robot01Laser-SickDL100]^Distance^Distance;
+                        
+                        .stAnaOnboardSpare1.bTUnderRange    := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^Spare1^Status^Underrange;
+                        .stAnaOnboardSpare1.bTOverRange     := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^Spare1^Status^Overrange;
+                        .stAnaOnboardSpare1.bTLimit1        := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^Spare1^Status^Limit 1;
+                        .stAnaOnboardSpare1.bTLimit2        := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^Spare1^Status^Limit 2;
+                        .stAnaOnboardSpare1.bTError         := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^Spare1^Status^Error;
+                        .stAnaOnboardSpare1.siAnaRaw        := TIIB[CGSMini_Robot01OnBoardBoxAnaInN04-EL3054]^Spare1^Value;
+  
+                        .stPwrSupplyAX8620.comState.uiDataState:= TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^InfoData^State;
+                        .stPwrSupplyAX8620.comState.bWcState   := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^WcState^WcState;
+                        .stPwrSupplyAX8620.sdiDcOutputShift := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^InfoData^DcOutputShift;
+                        .stPwrSupplyAX8620.sdiDcInputShift  := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^InfoData^DcInputShift;
+                        .stPwrSupplyAX8620.bOverTemp        := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^PSM Warning register^Warning^A2 Device overtemperature;  
+                        .stPwrSupplyAX8620.bFanMalfunc      := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^PSM Warning register^Warning^A4 Fan malfunction;
+                        .stPwrSupplyAX8620.bUnderVoltage    := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^PSM Warning register^Warning^A6 Mains undervoltage;
+                        .stPwrSupplyAX8620.bOverVoltage     := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^PSM Warning register^Warning^A5 Mains overvoltage;
+                        
+                        .stDriverLine1.comState             := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^InfoData^State;
+                        .stDriverLine1.sdiDcOutputShift     := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^InfoData^DcOutputShift;
+                        .stDriverLine1.sdiDcInputShift      := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^InfoData^DcInputShift;                       
+                        .stDriverLine1.siFrontIGBTTemp      := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Front^Ch B AxisMain Inputs^IGBT temperature;
+                        .stDriverLine1.udFrontMotorDIGIns   := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Front^Ch B AxisMain Inputs^Ch B Digital inputs;                      
+                        .stDriverLine1.siBackIGBTTemp       := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Back^Ch A AxisMain Inputs^IGBT temperature;                                                
+                        .stDriverLine1.udBackMotorDIGIns    := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Back^Ch A AxisMain Inputs^Ch A Digital inputs;
+                        .stDriverLine1.rFrontMotorTemp     := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Front^Ch B SyncServoMotor Inputs^Actual motor temperature;
+                        .stDriverLine1.rBackMotorTemp      := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Back^Ch A SyncServoMotor Inputs^Actual motor temperature;                         
+                        .stDriverLine1.rFrontMotorTorque    := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Front^Ch B TorqueControl Inputs^Ch B Torque/force actual value;
+                        .stDriverLine1.rBackMotorTorque     := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine1-AX8206^Back^Ch A TorqueControl Inputs^Ch A Torque/force actual value;
+
+
+                        .stDriverLine2.comState             := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^InfoData^State;
+                        .stDriverLine2.sdiDcOutputShift     := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^InfoData^DcOutputShift;
+                        .stDriverLine2.sdiDcInputShift      := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^InfoData^DcInputShift;                       
+                        .stDriverLine2.siFrontIGBTTemp      := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Front^Ch B AxisMain Inputs^IGBT temperature;
+                        .stDriverLine2.udFrontMotorDIGIns   := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Front^Ch B AxisMain Inputs^Ch B Digital inputs;                       
+                        .stDriverLine2.siBackIGBTTemp       := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Back^Ch A AxisMain Inputs^IGBT temperature;
+                        .stDriverLine2.udBackMotorDIGIns    := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Back^Ch A AxisMain Inputs^Ch A Digital inputs;                        
+                        .stDriverLine2.rFrontMotorTemp      := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Front^Ch B SyncServoMotor Inputs^Actual motor temperature;
+                        .stDriverLine2.rBackMotorTemp       := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Back^Ch A SyncServoMotor Inputs^Actual motor temperature;                       
+                        .stDriverLine2.rFrontMotorTorque    := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Front^Ch B TorqueControl Inputs^Ch B Torque/force actual value;
+                        .stDriverLine2.rBackMotorTorque     := TIIB[CGSMini_Robot01OnboardAxisPwrSupply-AX8620]^CGSMini_Robot01OnboardAxisDriverLine2-AX8206^Back^Ch A TorqueControl Inputs^Ch A Torque/force actual value;'}
+  stIN AT %I*:ST_Robot_HWI;
+
+
+{attribute 'TcLinkTo':='FlushFloor                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 1^FlushFloor;
+                        IrrigLine1                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 3^IrrigLine1;
+                        IrrigLine2                          := TIIB[CGSMini_Robot01OnBoardBoxOutN01-EL2008]^Channel 4^IrrigLine2;'}
+  stOUT AT %Q*:ST_Robot_HWQ;
+
+{attribute 'TcNcAxis' := '.Line1Front                       := CGSMini_Robot01AxisLine1Front;
+                          .Line1Back                        := CGSMini_Robot01AxisLine1Back;
+                          .Line2Front                       := CGSMini_Robot01AxisLine2Front;
+                          .Line2Back                        := CGSMini_Robot01AxisLine2Back;'}
+  stAxes : ST_Robot_Axes;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

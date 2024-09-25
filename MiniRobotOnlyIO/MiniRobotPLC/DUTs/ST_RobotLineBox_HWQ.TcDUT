@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_RobotLineBox_HWQ" Id="{5e332c6c-472e-4c17-8583-9235ea2f4ad0}">
+    <Declaration><![CDATA[TYPE ST_RobotLineBox_HWQ :
+STRUCT
+  stOverCProt : ST_OverCurrProtection_HWQ;//CGSMini_Robot01LineBoxOverCurrProt1-EL9222
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

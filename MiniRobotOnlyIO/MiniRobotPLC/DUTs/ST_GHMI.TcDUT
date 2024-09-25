@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_GHMI" Id="{6205cda5-0483-481f-8601-06879509a1f4}">
+    <Declaration><![CDATA[TYPE ST_GHMI :
+STRUCT
+  bStartButton      		  : BOOL;
+  bStopButton       		  : BOOL;
+  bResetButton      		  : BOOL;
+  bAbortButton      		  : BOOL;
+  bClearButton      		  : BOOL;
+  nIndexFrame       		  : INT := 0;
+  nIndexFrameAdmin        : INT := 0;
+  nIndexFrameHome   		  : INT := 0;
+  bPopUpModulPresent		  : BOOL;
+  bPopUpHoming      		  : BOOL;
+  bPopUpExtractorAborted  : BOOL;
+	bPopUpInsertModulesLine	: BOOL;
+  bRestart          		  : BOOL;
+  bShutdown          		  : BOOL;
+	sBtnAdmin								: STRING(32);
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_RemoteControl_HWI" Id="{49362334-6611-4a3c-8a93-9aa64e0e0547}">
+    <Declaration><![CDATA[TYPE ST_RemoteControl_HWI:
+STRUCT
+  BtnForwardMan     : BOOL := false;
+  BtnBackwardMan    : BOOL := false;
+  BtnValveLine1Man  : BOOL := false;
+  BtnValveLine2Man  : BOOL := false;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_Robot_HWI" Id="{3dc5f4f5-6c7b-44b8-a023-d6c55ce061ed}">
+    <Declaration><![CDATA[TYPE ST_Robot_HWI :
+STRUCT
+  stAnaInN04_3054State    : ST_CardState_HWI;//CGSMini_Robot01OnBoardBoxAnaInN04-EL3054
+  stOnboardBox_1100State  : ST_CardState_HWI;//CGSMini_Robot01OnboardBox-EK1100
+  stLaserPos_State        : ST_CardState_HWI;//CGSMini_Robot01Laser-SickDL100
+  stOutN01_2008State      : ST_CardState_HWI;//CGSMini_Robot01OnBoardBoxOutN01-EL2008
+  
+  stLaserPos              : ST_PositioningLaser_HWI;//CGSMini_Robot01Laser-SickDL100
+  stAnaOnboardSpare1      : ST_Analog_HWI;//CGSMini_Robot01OnBoardBoxAnaInN04-EL3054
+  stPwrSupplyAX8620       : ST_PwrSupplyAX8620_HWI;//CGSMini_Robot01OnboardAxisAlim-AX8620
+  stDriverLine1           : ST_DriverAX8206_HWI;
+  stDriverLine2           : ST_DriverAX8206_HWI;
+ END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

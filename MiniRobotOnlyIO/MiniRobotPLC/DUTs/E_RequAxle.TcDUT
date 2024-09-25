@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="E_RequAxle" Id="{89229977-e67f-4eca-83e1-f48b4f892c42}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE E_RequAxle :
+(
+  NoRequ := 0,
+  PowerOn := 1,
+  PowerOff := 2,
+  Reset := 3,
+  Jog := 4,
+  Error := 254,
+  Idle := 255
+);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

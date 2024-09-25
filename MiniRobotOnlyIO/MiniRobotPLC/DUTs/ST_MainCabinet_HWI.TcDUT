@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_MainCabinet_HWI" Id="{6c292855-52ba-4776-8534-be5faf8e109d}">
+    <Declaration><![CDATA[TYPE ST_MainCabinet_HWI :
+STRUCT		
+    //State
+    stInN01_1008State       : ST_CardState_HWI;
+    stOutN01_2008State      : ST_CardState_HWI; 
+    stLicense_6070State     : ST_CardState_HWI; 
+    stAnaInN01_3443         : ST_CardState_HWI; //CGSMini_RobotAllMainCabAnaInN01-EL3443
+    
+    //EK1122 ethercat State    
+    stMainEK1122State       : ST_CardState_HWI;
+    
+		//inputs
+		bKeyRestart			 	 			: BOOL;  
+		bEmgyBtnCntct1					: BOOL; 
+		bEmgyBtnCntct2	   			: BOOL;  
+		bOverTemp45C			 			: BOOL := FALSE;  
+    bPLCCircuitBreakerOpen  : BOOL := FALSE;   
+    
+    stUPS                   : ST_UPS_HWI;
+    stPwrInfo               : ST_MainPwrPhases_HWI;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

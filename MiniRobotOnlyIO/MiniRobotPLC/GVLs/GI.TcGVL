@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GI" Id="{963538d7-8709-4035-bf33-b2ede6002b2c}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{IF defined (debugCompile)}
+ //contains ONLY global variable to access hardware input debugCompile mode
+{info '---------------simulation input global variables used; DEBUG defined---------------'}
+VAR_GLOBAL	
+  stMainCabinet : ST_MainCabinet_HWI;
+END_VAR    
+{END_IF}
+
+VAR_GLOBAL
+  {info '---------------Hardware inputs used; CGSMiniRobot defined---------------'}		
+  {attribute 'TcLinkTo':='.bKeyRestart                := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 1^KeyRestart;
+                      .bEmgyBtnCntct1                 := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 2^EmgyBtnCntct1;
+                      .bEmgyBtnCntct2                 := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 3^EmgyBtnCntct2;
+                      .bOverTemp45C                   := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 5^OverTemp45C;
+                      .bPLCCircuitBreakerOpen         := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 6^PLCCircuitBreakerOpen;
+                      
+                      .stUPS.bPowerReady              := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 8^UPSPowerReady;
+                      .stUPS.bPowerFail               := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^Channel 7^UPSPowerFail;
+                      
+                      .stPwrInfo.L1.Voltage           := TIIB[CGSMini_RobotAllMainCabAnaInN01-EL3443]^L1 Basic^Voltage;
+                      .stPwrInfo.L1.Current           := TIIB[CGSMini_RobotAllMainCabAnaInN01-EL3443]^L1 Basic^Current;
+                      .stPwrInfo.Tot.L1_L2_V          := TIIB[CGSMini_RobotAllMainCabAnaInN01-EL3443]^Total L-L Voltage^L1-L2 Voltage;
+                   
+                      .stMainEK1122State.uiDataState  := TIIB[CGSMini_Robot01MainCabEtherCATBusEK1122]^InfoData^State;
+                      
+                      .stInN01_1008State.uiDataState  := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^InfoData^State;
+                      .stInN01_1008State.bWcState     := TIIB[CGSMini_RobotAllMainCabInN01-EL1008]^WcState^WcState;
+                      
+                      .stAnaInN01_3443.uiDataState    := TIIB[CGSMini_RobotAllMainCabAnaInN01-EL3443]^InfoData^State;
+                      .stAnaInN01_3443.bWcState       := TIIB[CGSMini_RobotAllMainCabAnaInN01-EL3443]^WcState^WcState;
+
+                      .stOutN01_2008State.uiDataState := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^InfoData^State;
+                      .stOutN01_2008State.bWcState    := TIIB[CGSMini_RobotAllMainCabOutN01-EL2008]^WcState^WcState;
+
+                      .stLicense_6070State.uiDataState := TIIB[CGSMini_RobotAllLicenses-EL6070]^InfoData^State;'}
+  stMainCabinet AT %I* :ST_MainCabinet_HWI;	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
