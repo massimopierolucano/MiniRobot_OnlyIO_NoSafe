@@ -31,11 +31,8 @@
 		<Box File="CGSMini_Robot01LineBoxAnaInN03-EL3202.xti" Id="30">
 			<EtherCAT PortABoxInfo="#x0100001d"/>
 		</Box>
-		<Box File="CGSMini_Robot01LineBoxSafeInN01-EL1918.xti" Id="31">
-			<EtherCAT PortABoxInfo="#x0100001e"/>
-		</Box>
 		<Box File="CGSMini_RobotAllMainCabAnaInN01-EL3443.xti" Id="32">
-			<EtherCAT PortABoxInfo="#x0100001f"/>
+			<EtherCAT PortABoxInfo="#x0100001e"/>
 		</Box>
 		<Box File="CGSMini_Robot01MainCabEtherCATBusEK1122.xti" Id="33">
 			<EtherCAT PortABoxInfo="#x01000020"/>
